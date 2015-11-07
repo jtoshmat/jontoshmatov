@@ -16,7 +16,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
 
 	<!--basic style sheets-->
-	<link rel="stylesheet" media="screen" href="{{$template}}/css/bootstrap.css"/>
+	<link rel="stylesheet" media="screen" href="{{URL::to($template."/css/bootstrap.css")}}"/>
 	<link rel="stylesheet" media="screen" href="{{$template}}/css/bootstrap-responsive.css"/>
 	<link rel="stylesheet" media="screen" href="{{$template}}/css/style.css"/>
 
