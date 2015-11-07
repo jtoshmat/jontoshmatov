@@ -1,35 +1,22 @@
 <?php
 
-namespace app\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use app\Http\Requests;
-use app\Http\Controllers\Controller;
+
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
 
 class PublicController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return Response
      */
-    public function aboutme()
+    public function welcome()
     {
-        return view("public.aboutme");
-    }
-
-
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
+        return view('welcome');
     }
 
 }
