@@ -32,7 +32,7 @@
 			$('#mycarousel').elastislide({
 				imageW		: 280,	// the images width
 				margin		: 20,	// image margin right
-				border		: 10,	// image border
+				border		: 10	// image border
 			});
 		});
 	</script>

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 {{--*/
-	$template = "/".array_rand(array('pink'=>'pink','blue'=>'blue','orange'=>'orange','green'=>'green')) or
+	$host = \Request::root();
+	$template = $host."/".array_rand(array('pink'=>'pink','blue'=>'blue','orange'=>'orange','green'=>'green')) or
 	'blue';
 /*--}}
 
