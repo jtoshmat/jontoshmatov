@@ -12,6 +12,6 @@
 */
 
 	Route::get('/', function () {
-	    return view('welcome');
+	    return redirect('https://www.linkedin.com/in/toshmatovus');
 	});
 
