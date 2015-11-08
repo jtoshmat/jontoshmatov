@@ -15,6 +15,10 @@
 	    return redirect('https://www.linkedin.com/in/toshmatovus');
 	});
 
+    Route::get('/home', function () {
+        return "Yay, you are logged on!";
+    });
+
     Route::group(array('prefix' => 'users'), function () {
         Route::get('login', 'Auth\AuthController@getLogin');
         Route::post('login', 'Auth\AuthController@postLogin');

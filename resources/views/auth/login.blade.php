@@ -2,7 +2,7 @@
 @section('content')
 
 
-<form method="POST" action="/auth/login">
+<form method="POST" action="/users/login">
     {!! csrf_field() !!}
 
     <div>
