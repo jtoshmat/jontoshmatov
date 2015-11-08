@@ -2,11 +2,11 @@
 
 namespace app\Http\Controllers\Auth;
 
-use app\User;
+use App\User;
 use Validator;
-use app\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
+use App\Http\Controllers\Controller;
 
 class AuthController extends Controller
 {
