@@ -19,6 +19,10 @@
         return "Yay, you are logged on!";
     });
 
+    Route::get('/aboutme', function () {
+        return view('aboutme');
+    });
+
     Route::group(array('prefix' => 'users'), function () {
         Route::get('login', 'Auth\AuthController@getLogin');
         Route::post('login', 'Auth\AuthController@postLogin');
