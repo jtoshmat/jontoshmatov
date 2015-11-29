@@ -1,4 +1,4 @@
-#Company Name: Change My World Now
+#Company Name: JonToshmatov.com
 #Team: Platform/Engineers
 #Engineers: Jon Toshmatov
 
