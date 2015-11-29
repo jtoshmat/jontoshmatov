@@ -1,0 +1,365 @@
+{
+    "name": "app\\User",
+    "line": 19,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "app",
+    "file": "app\/cmwn\/User.php",
+    "relative_file": null,
+    "hash": "47bf9a203847188da0700528adbb8e4941b34850",
+    "parent": "Illuminate\\Database\\Eloquent\\Model",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "UserRole": "app\\UserRole",
+        "Authenticatable": "Illuminate\\Auth\\Authenticatable",
+        "Model": "Illuminate\\Database\\Eloquent\\Model",
+        "CanResetPassword": "Illuminate\\Auth\\Passwords\\CanResetPassword",
+        "Authorizable": "Illuminate\\Foundation\\Auth\\Access\\Authorizable",
+        "AuthenticatableContract": "Illuminate\\Contracts\\Auth\\Authenticatable",
+        "AuthorizableContract": "Illuminate\\Contracts\\Auth\\Access\\Authorizable",
+        "CanResetPasswordContract": "Illuminate\\Contracts\\Auth\\CanResetPassword",
+        "Request": "Illuminate\\Support\\Facades\\Request",
+        "Hash": "Illuminate\\Support\\Facades\\Hash",
+        "SoftDeletes": "Illuminate\\Database\\Eloquent\\SoftDeletes",
+        "Auth": "Illuminate\\Support\\Facades\\Auth"
+    },
+    "errors": [],
+    "interfaces": {
+        "Illuminate\\Contracts\\Auth\\Authenticatable": "Illuminate\\Contracts\\Auth\\Authenticatable",
+        "Illuminate\\Contracts\\Auth\\Access\\Authorizable": "Illuminate\\Contracts\\Auth\\Access\\Authorizable",
+        "Illuminate\\Contracts\\Auth\\CanResetPassword": "Illuminate\\Contracts\\Auth\\CanResetPassword"
+    },
+    "traits": {
+        "Illuminate\\Auth\\Authenticatable": "Illuminate\\Auth\\Authenticatable",
+        "Illuminate\\Foundation\\Auth\\Access\\Authorizable": "Illuminate\\Foundation\\Auth\\Access\\Authorizable",
+        "Illuminate\\Auth\\Passwords\\CanResetPassword": "Illuminate\\Auth\\Passwords\\CanResetPassword",
+        "Illuminate\\Database\\Eloquent\\SoftDeletes": "Illuminate\\Database\\Eloquent\\SoftDeletes"
+    },
+    "properties": {
+        "memberUpdateRules": {
+            "name": "memberUpdateRules",
+            "line": 57,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 9,
+            "default": {
+                "items": [
+                    {
+                        "key": {
+                            "value": "first_name"
+                        },
+                        "value": {
+                            "value": "required|string|min:2"
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": {
+                            "value": "middle_name"
+                        },
+                        "value": {
+                            "value": "required|string|min:2"
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": {
+                            "value": "last_name"
+                        },
+                        "value": {
+                            "value": "required|string|min:2"
+                        },
+                        "byRef": false
+                    },
+                    {
+                        "key": {
+                            "value": "email"
+                        },
+                        "value": {
+                            "value": "required|email|min:2"
+                        },
+                        "byRef": false
+                    }
+                ]
+            },
+            "errors": []
+        },
+        "memberDeleteRules": {
+            "name": "memberDeleteRules",
+            "line": 67,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 9,
+            "default": {
+                "items": []
+            },
+            "errors": []
+        }
+    },
+    "methods": {
+        "role": {
+            "name": "role",
+            "line": 73,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "districts": {
+            "name": "districts",
+            "line": 78,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "organizations": {
+            "name": "organizations",
+            "line": 83,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "groups": {
+            "name": "groups",
+            "line": 88,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "children": {
+            "name": "children",
+            "line": 94,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "guardians": {
+            "name": "guardians",
+            "line": 99,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "friends": {
+            "name": "friends",
+            "line": 104,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "acceptedfriends": {
+            "name": "acceptedfriends",
+            "line": 109,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "pendingfriends": {
+            "name": "pendingfriends",
+            "line": 114,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "friendrequests": {
+            "name": "friendrequests",
+            "line": 119,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "siblings": {
+            "name": "siblings",
+            "line": 124,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "hasRole": {
+            "name": "hasRole",
+            "line": 129,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "roles": {
+                    "name": "roles",
+                    "line": 129,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "updateMember": {
+            "name": "updateMember",
+            "line": 139,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 139,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "app\\Illuminate\\Support\\Facades\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Illuminate\\Support\\Facades\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "id": {
+                    "name": "id",
+                    "line": 139,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "deleteMember": {
+            "name": "deleteMember",
+            "line": 154,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 154,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,174 @@
+{
+    "name": "app\\cmwn\\Services\\Notifier",
+    "line": 9,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "app\\cmwn\\Services",
+    "file": "app\/cmwn\/Services\/Notifier.php",
+    "relative_file": null,
+    "hash": "f6444ee6254e554c179073738d8ab221702460c1",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Notify": "app\\Jobs\\Notify",
+        "TriggerNotifierEvent": "app\\cmwn\\Services\\TriggerNotifierEvent",
+        "DispatchesJobs": "Illuminate\\Foundation\\Bus\\DispatchesJobs"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": {
+        "Illuminate\\Foundation\\Bus\\DispatchesJobs": "Illuminate\\Foundation\\Bus\\DispatchesJobs"
+    },
+    "properties": {
+        "data": {
+            "name": "data",
+            "line": 13,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "default": {
+                "items": []
+            },
+            "errors": []
+        },
+        "from": {
+            "name": "from",
+            "line": 14,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "default": {
+                "value": "admin@changemyworldnow.education"
+            },
+            "errors": []
+        },
+        "template": {
+            "name": "template",
+            "line": 15,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "default": {
+                "value": "email"
+            },
+            "errors": []
+        },
+        "subject": {
+            "name": "subject",
+            "line": 16,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "default": {
+                "value": "Default email template"
+            },
+            "errors": []
+        },
+        "priority": {
+            "name": "priority",
+            "line": 17,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "default": {
+                "value": "Normal"
+            },
+            "errors": []
+        },
+        "mailType": {
+            "name": "mailType",
+            "line": 18,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "default": {
+                "value": "email"
+            },
+            "errors": []
+        }
+    },
+    "methods": {
+        "prepData": {
+            "name": "prepData",
+            "line": 20,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "send": {
+            "name": "send",
+            "line": 27,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "attachData": {
+            "name": "attachData",
+            "line": 32,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "data": {
+                    "name": "data",
+                    "line": 32,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,88 @@
+global:
+  env:
+    - APP_ENV: production
+    - APP_DEBUG: true
+    - APP_KEY: SomeRandomStringWith32Characters
+    - DB_HOST: 'MAP:DATABASE1_HOST'
+    - DB_DATABASE: 'MAP:DATABASE1_NAME'
+    - DB_USERNAME: 'MAP:DATABASE1_USER'
+    - DB_PASSWORD: 'MAP:DATABASE1_PASS'
+    - CACHE_DRIVER: file
+    - SESSION_DRIVER: redis
+    - QUEUE_DRIVER: redis
+    - MAIL_DRIVER: smtp
+    - MAIL_HOST: mailtrap.io
+    - MAIL_PORT: 2525
+    - MAIL_USERNAME: 4762712fd34d91aa0
+    - MAIL_PASSWORD: af48fe96f32502
+    - MAIL_ENCRYPTION: null
+
+build:
+  before_exec:
+    - "rm public/.htaccess"
+    - "mv public/.htaccess-production public/.htaccess"
+  exec:
+    - 'composer install --no-interaction --prefer-source'
+    # - 'npm install'
+  after_exec:
+    - 'composer dump-autoload --optimize'
+    # - 'node_modules/.bin/gulp'
+  lib_dirs:
+    - vendor
+    # - node_modules
+  reuse_libs: true
+
+web1:
+  type: php
+  php_extensions:
+    - json
+    - mbstring
+    - mcrypt
+    - tokenizer
+    - pdo_mysql
+    - xcache
+    - redis
+  httpd_document_root: public
+  network_dirs:
+    - storage/framework
+    - storage/app
+  nonpersistent_writable_dirs:
+    - bootstrap/cache
+    - storage/cache
+  log_watch:
+    laravel[error]: 'storage/logs/laravel.log'
+  before_deploy:
+    # - 'mkdir storage/framework/views'
+    # - 'mkdir storage/framework/sessions'
+    - 'php artisan migrate --no-interaction'
+
+database1:
+  type: mysql
+  version: 5.6
+
+# cache1:
+#  type: redis
+
+storage1:
+  type: nfs
+
+# --------------------------------
+# Optional Worker Config
+# --------------------------------
+# worker1:
+#   exec: 'php artisan queue:listen'
+#   php_extensions:
+#     - json
+#     - mbstring
+#     - mcrypt
+#     - tokenizer
+#     - xcache
+#     - redis
+#   network_dirs:
+#     - storage/framework
+#     - storage/app
+#   nonpersistent_writable_dirs:
+#     - bootstrap/cache
+#     - storage/cache
+#   log_watch:
+#     laravel[error]: 'storage/logs/laravel.log'

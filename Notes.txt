@@ -1,0 +1,293 @@
+#Company Name: Change My World Now
+#Team: Platform/Engineers
+#Engineers: Arron Kallenberg, Jon Toshmatov
+
+                          ########################## README NOTES #####################
+
+
+
+#All custom routes are located in config/myroutes.php  - 10/02 JT
+#Routes are in app/Http/routes.php
+#To register custom middlware add it to app/Http/Kernel.php
+#change the model path change the composer.json
+"autoload": {
+    "classmap": [
+        "database",
+        "app/Models" <---------------
+    ]
+}
+
+#send email
+http://developer.postmarkapp.com/developer-send-api.html
+
+$notifier = new Notifier();
+$notifier->data['email'] = 'jontoshmatov@yahoo.com';
+$notifier->data['subject'] = "This is my test email";
+var_dump($notifier->send());
+
+#Check mailtrap log
+login to
+https://mailtrap.io
+Your email: arron@ginasink.com
+Api Token: 2452bf346de14c7ff9ab612ec4a6656b
+pwd: Cmwn2015
+
+SMTP
+Host:    mailtrap.io
+Port:    25 or 465 or 2525
+Username:    4762743520af4a490
+Password:    eae97b45372def
+
+
+#Imaging Management
+http://cloudinary.com/
+
+ Cloud name: change-my-world-now
+API Key: 125692255259728
+API Secret: xTgojKXezGKFAd6v2aGQ_7mvmdM
+Environment variable: CLOUDINARY_URL=cloudinary://125692255259728:xTgojKXezGKFAd6v2aGQ_7mvmdM@change-my-world-now
+Base delivery URL:  http://res.cloudinary.com/change-my-world-now
+http://res.cloudinary.com/change-my-world-now ▼
+Secure delivery URL:  https://res.cloudinary.com/change-my-world-now
+https://res.cloudinary.com/change-my-world-now ▼
+API Base URL:  https://api.cloudinary.com/v1_1/change-my-world-now
+
+
+#Declare a var in blade
+{{--*/  $chidren_array = array() /*--}}
+
+
+
+
+#To get list of glyphicon for Bootstrap form->inputs
+http://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp
+
+#declare vars in blade
+{{--*/  $myVar = 'my value' /*--}}
+display  {{$myVar}}
+
+
+#Laravel helpers
+http://laravel.com/docs/5.0/helpers
+
+User delte
+cmwn/users/member/3/delete
+
+LARAVEL logs -  Log::getMonolog();
+storage/logs/laravel.log
+		\Log::info('This is some useful information.');
+		\Log::warning('Something could be going wrong.');
+		\Log::error('Something is really going wrong.');
+
+Redis cache
+		$user = Redis::set('name', 'Taylor');
+		var_dump(Redis::get('name'));
+
+
+@TODO:
+Organizations needs softdelete added - 10/07 JT
+
+				{{--*/  $organizations = array() /*--}}
+							@foreach($allorganizations as $orn)
+								{{--*/  $organizations[$orn->id] =  $orn->title /*--}}
+							@endforeach
+
+
+							{{--*/  $selected = '' /*--}}
+							@foreach($viewdata->organization as $organization)
+								{{--*/  $selected[$organization->id] =  $organization->id /*--}}
+
+							@endforeach
+
+							{!! Form::select('organizations['.$viewdata->id.'][]', $organizations, $selected, ['multiple']) !!}
+
+
+								<li><a href="/users/members">Users</a></li>
+                            	<li><a href="/users/roles">Users Roles</a></li>
+                            	<li><a href="/guardians">Guardian and Child</a></li>
+                            	<li><a href="/districts">Districts</a></li>
+                            	<li><a href="/organizations">Organizations</a></li>
+                            	<li><a href="/groups">Groups</a></li>
+                            	
+                            	
+                            	
+                            	
+#Import csv file into MySQL
+#A sample code - Oct 11 Jon T
+
+    public function migratecsv()
+    {
+	    $file = base_path( 'public/countries.csv' );
+
+	    $sql = <<<END
+		load data local infile '%s' ignore
+		into table `countries`
+		character set utf8
+		fields terminated by ','
+		lines terminated by '\\n'
+		ignore 1 lines
+		(from_id,to_id,distance);
+END;
+
+	    $output = \DB::unprepared( sprintf( $sql, $file ) );
+	    dd($output);
+    }
+    
+    
+	    Schema::create('countries', function(Blueprint $table)
+	    {
+		    $table->increments('id');
+		    $table->string('from_id');
+		    $table->string('to_id');
+		    $table->string('distance');
+		    $table->timestamps();
+	    });
+
+
+#Oct 26, 2015
+https://gist.github.com/irazasyed/5987693
+setting alias and update .profile
+
+#Important notes on creating and maintaining Apis
+
+Api response handling
+protected function respondWithArray(array $array, array $headers = [])
+
+	$mimeParts = (array) explode(';',
+	Input::server('HTTP_ACCEPT'));
+	$mimeType = strtolower($mimeParts[0]);
+
+	switch ($mimeType) {
+	case 'application/json':
+		$contentType = 'application/json'; $content = json_encode($array);
+	break;
+
+	case 'application/x-yaml':
+		$contentType = 'application/x-yaml';
+		$dumper = new YamlDumper();
+		$content = $dumper->dump($array, 2);
+	break;
+
+	default:
+		$contentType = 'application/json';
+		$content = json_encode([
+                'error' => [
+                    'code' => static::CODE_INVALID_MIME_TYPE,
+                    'http_code' => 406,
+                    'message' => sprintf('Content of type %s is not supported.', $mim\]
+        $response = Response::make($content, $this->statusCode, $headers);
+        $response->header('Content-Type', $contentType);
+		return $response;
+}
+
+
+
+Route::group(['prefix' => 'api', 'after' => 'allowOrigin'], function() {
+
+    Route::get('/users/{profile}', function ($page) {
+        return Response::json(['status' => 200,'polls' => User::find(1))
+                ->take(5)
+                ->get()->toArray()
+        ]);
+    });
+
+        Route::get('/profile/{id}', function ($id) {
+            $user = User::find($id);
+            $stats = $user->stats()
+                ->select(['column1', 'column2 as c2'])
+                ->get()->toArray();
+            return Response::json(['status' => 200, 'stats' => $stats]);
+        });
+
+
+        Route::filter('allowOrigin', function($route, $request, $response)
+        {
+            $response->header('access-control-allow-origin','*');
+        });
+
+        Sources:
+        http://www.codeheaps.com/php-programming/creating-restful-api-using-laravel-angularjs-frontend/
+        http://www.tutorials.kode-blog.com/laravel-5-rest-api
+
+
+    Best Practice # 1: Use HTTP VERBS to determine action to be taken
+    Best Practice # 2: API Versioning
+    Best Practice # 3: Use plurals to describe resources
+    Best Practice # 4: Use query strings to build relations
+    Best Practice # 5: Partial responses
+    Best Practice # 6: Response Codes and Error Handling
+    Best Practice # 7: Limit the number of request in a given time period from the same IP Address
+    Best Practice # 8: Use OAuth latest version for authentication
+    Best Practice # 9: use JSON as the default
+    Best Practice # 10: Cache GET results for less frequently changing data
+
+
+#Sami documentation
+to generate a report
+php sami.phar update Config/sami.php
+
+to view
+/code/laravel/build
+
+to run Python simple webserver
+cd the folder where your webserver files are and then run the comment
+>> python -m SimpleHTTPServer 8080
+
+
+$district = District::firstOrCreate(array('id'=>14));
+$district->title = '2';
+dd($district->save());
+
+
+
+#Git tips
+Exclude a file from commit
+This will tell git you want to start ignoring the changes to the file
+git update-index --assume-unchanged path/to/file
+
+When you want to start keeping track again
+git update-index --no-assume-unchanged path/to/file
+
+#routes with some parms and validations
+ Route::get('users/friendship/{friend_id}/{action}', [
+        'as' => 'users/friendhsip',
+        'uses' => 'Api\FriendshipController@add',
+    ], function ($id, $action) {
+        return $id;
+    })->where('id', '[0-9]+')->where('action', 'add|delete|block|accept|reject|message|poke');
+
+#PHP
+/**
+ * @param Type ...$value
+ * Note: PHP 5.6+ syntax equal to func_get_args()
+ */
+public function abc(Type ...$value) {}
+http://php.net/manual/en/functions.arguments.php#functions.variable-arg-list
+
+
+#if php artisan db:seed generates an error
+[ReflectionException]
+  Class GameTableSeeder does not exist
+
+Solution:
+run => composer dump-autoload
+
+#######################################
+To run locally cmwn-front
+Pull down the code from the repo
+run the nmp install
+then
+gulp
+
+in the directory
+run python -m SimpleHTTPServer 80
+
+
+#Front end
+to change to local env
+export APP_API_URL=http://api.cmwn.localhost/
+
+restart the frontend
+sudo gulp
+
+http://frontend or localhost

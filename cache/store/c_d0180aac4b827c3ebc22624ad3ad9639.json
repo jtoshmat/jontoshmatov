@@ -1,0 +1,74 @@
+{
+    "name": "app\\AdminTool",
+    "line": 7,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "app",
+    "file": "app\/cmwn\/AdminTool.php",
+    "relative_file": null,
+    "hash": "bd2348c078b9bb1f9ebd00b82a540b73a378cdd6",
+    "parent": "Illuminate\\Database\\Eloquent\\Model",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Model": "Illuminate\\Database\\Eloquent\\Model"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "uploadCsvRules": {
+            "name": "uploadCsvRules",
+            "line": 9,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 9,
+            "default": {
+                "items": [
+                    {
+                        "key": {
+                            "value": "yourcsv"
+                        },
+                        "value": {
+                            "value": "required|mimes:csv,txt"
+                        },
+                        "byRef": false
+                    }
+                ]
+            },
+            "errors": []
+        },
+        "uploadImageRules": {
+            "name": "uploadImageRules",
+            "line": 13,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 9,
+            "default": {
+                "items": [
+                    {
+                        "key": {
+                            "value": "yourfile"
+                        },
+                        "value": {
+                            "value": "required|image"
+                        },
+                        "byRef": false
+                    }
+                ]
+            },
+            "errors": []
+        }
+    },
+    "methods": [],
+    "constants": []
+}

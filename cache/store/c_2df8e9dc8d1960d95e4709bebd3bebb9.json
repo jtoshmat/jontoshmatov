@@ -1,0 +1,25 @@
+{
+    "name": "app\\cmwn\\Profile",
+    "line": 7,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "app\\cmwn",
+    "file": "app\/cmwn\/Profile.php",
+    "relative_file": null,
+    "hash": "08939fb9c162a66adf97c6842dac90478029c750",
+    "parent": "Illuminate\\Database\\Eloquent\\Model",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Model": "Illuminate\\Database\\Eloquent\\Model"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

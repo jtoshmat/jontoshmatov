@@ -1,0 +1,84 @@
+{
+    "name": "app\\cmwn\\Services\\BulkImporter",
+    "line": 14,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "app\\cmwn\\Services",
+    "file": "app\/cmwn\/Services\/BulkImporter.php",
+    "relative_file": null,
+    "hash": "1a378fc151304dfe738c3eb2780f826f4f0f6ae3",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "DispatchesJobs": "Illuminate\\Foundation\\Bus\\DispatchesJobs",
+        "Notifier": "app\\cmwn\\Services\\Notifier",
+        "District": "app\\District",
+        "Organization": "app\\Organization",
+        "User": "app\\User",
+        "Auth": "Illuminate\\Support\\Facades\\Auth"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": {
+        "Illuminate\\Foundation\\Bus\\DispatchesJobs": "Illuminate\\Foundation\\Bus\\DispatchesJobs"
+    },
+    "properties": [],
+    "methods": {
+        "migratecsv": {
+            "name": "migratecsv",
+            "line": 18,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "csvToArray": {
+            "name": "csvToArray",
+            "line": 27,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "filename": {
+                    "name": "filename",
+                    "line": 27,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "''",
+                    "is_by_ref": false
+                },
+                "delimiter": {
+                    "name": "delimiter",
+                    "line": 27,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "','",
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}
