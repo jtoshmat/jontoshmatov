@@ -1,6 +1,6 @@
 #Company Name: Change My World Now
 #Team: Platform/Engineers
-#Engineers: Arron Kallenberg, Jon Toshmatov
+#Engineers: Jon Toshmatov
 
                           ########################## README NOTES #####################
 
