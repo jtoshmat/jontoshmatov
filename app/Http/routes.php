@@ -11,6 +11,12 @@
 |
 */
 
+    if (env('APP_ENV') == 'local') {
+        Event::listen('illuminate.query', function ($query) {
+             var_dump($query);
+        });
+    }
+
 	Route::get('/', function () {
 	    return redirect('https://www.linkedin.com/in/toshmatovus');
 	});
