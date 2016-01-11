@@ -3,7 +3,7 @@
 		<ul id="nav">
 			<li><a href="/" class="selected">Home</a></li>
 			<li><a href="/aboutme">About</a> </li>
-			<li><a href="features.html">Features</a></li>
+			<li><a href="/portfolio">My Portfolio</a></li>
 			<li><a href="#">Pages</a>
 				<ul>
 					<li><a href="index-1.html">Home variation</a> </li>

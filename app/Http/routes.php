@@ -15,3 +15,10 @@
 	    return redirect('https://www.linkedin.com/in/toshmatovus');
 	});
 
+    Route::get('/aboutme', 'PublicController@aboutme');
+
+
+    Route::group(['prefix' => 'portfolio'], function ($router) {
+        Route::get('{project}', 'PublicController@amfam')->where('project', 'amfam|greenbay');
+    });
+

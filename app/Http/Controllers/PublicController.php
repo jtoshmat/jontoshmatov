@@ -19,4 +19,20 @@ class PublicController extends Controller
         return view('welcome');
     }
 
+    public function aboutme(){
+        return view('public.aboutme');
+    }
+
+    public function portfolio(){
+        return view('public.portfolio');
+    }
+
+    public function amfam(){
+        return view('public.portfolio');
+    }
+
+    public function greenbay(){
+        return view('public.portfolio');
+    }
+
 }
