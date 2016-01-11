@@ -265,6 +265,10 @@ public function abc(Type ...$value) {}
 http://php.net/manual/en/functions.arguments.php#functions.variable-arg-list
 
 
+php artisan make:migration add_votes_to_users_table --table=users
+
+php artisan make:migration create_users_table --create=users
+
 #if php artisan db:seed generates an error
 [ReflectionException]
   Class GameTableSeeder does not exist

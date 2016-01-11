@@ -1,0 +1,9 @@
+th {
+	color: #808080;
+	font-weight: bold;
+	}
+th:nth-child(odd) {
+	background: #808080;
+	color:#fff;
+	}
+

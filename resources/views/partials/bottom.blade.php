@@ -6,3 +6,4 @@
 <script src="{{$template}}/js/jquery.easing.1.3.js" type="text/javascript" ></script>
 <script src="{{$template}}/js/selectnav.js" type="text/javascript" ></script>
 <script src="{{$template}}/js/custom.js" type="text/javascript" ></script>
+<script src="/js/main.js" type="text/javascript" ></script>

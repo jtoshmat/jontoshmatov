@@ -29,6 +29,10 @@
         return view('aboutme');
     });
 
+    Route::get('test', 'TestController@test');
+
+    Route::get('/posts', 'PostsController@index');
+
     Route::group(array('prefix' => 'users'), function () {
         Route::get('login', 'Auth\AuthController@getLogin');
         Route::post('login', 'Auth\AuthController@postLogin');

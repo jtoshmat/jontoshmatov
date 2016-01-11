@@ -19,6 +19,7 @@
 	<link rel="stylesheet" media="screen" href="{{URL::to($template."/css/bootstrap.css")}}"/>
 	<link rel="stylesheet" media="screen" href="{{$template}}/css/bootstrap-responsive.css"/>
 	<link rel="stylesheet" media="screen" href="{{$template}}/css/style.css"/>
+	<link rel="stylesheet" media="screen" href="/css/main.css"/>
 
 	<!--main jquery libraries / others are at the bottom-->
 	<script src="{{$template}}/js/jquery-1.9.1.min.js" type="text/javascript"></script>
