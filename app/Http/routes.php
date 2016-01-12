@@ -19,6 +19,7 @@
 
 
     Route::group(['prefix' => 'portfolio'], function ($router) {
-        Route::get('{project}', 'PublicController@amfam')->where('project', 'amfam|greenbay');
+        Route::get('{project}/{page}', 'PublicController@amfam')
+            ->where('project', 'amfam|greenbay');
     });
 

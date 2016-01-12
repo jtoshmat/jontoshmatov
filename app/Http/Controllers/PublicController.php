@@ -28,11 +28,13 @@ class PublicController extends Controller
     }
 
     public function amfam(){
-        return view('public.portfolio');
+        $img = (string) \Request::segment(3);
+        $img = url('/img/projects/amfam/'.$img.'.png');
+        return view('public.projects.amfam.amfam', compact('img'));
     }
 
     public function greenbay(){
-        return view('public.portfolio');
+        return view('public.projects.amfam.amfam');
     }
 
 }
