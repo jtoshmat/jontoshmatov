@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace app\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;
@@ -35,7 +35,7 @@ class RedirectIfAuthenticated
     public function handle($request, Closure $next)
     {
         if ($this->auth->check()) {
-            return redirect('/home');
+            return redirect('/member');
         }
 
         return $next($request);

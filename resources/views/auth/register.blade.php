@@ -48,7 +48,7 @@
     </div>
     <div>
         Confirm Password
-        <input type="text" name="slug" value="myslug">
+        <input type="text" name="uuid" value="myuuid">
     </div>
 
     <div>

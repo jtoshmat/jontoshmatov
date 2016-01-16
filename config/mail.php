@@ -54,7 +54,8 @@ return [
     |
     */
 
-    'from' => ['address' => null, 'name' => null],
+    //'from' => ['address' => null, 'name' => null],
+    'from' => ['address' => 'info@jontoshmatov.com', 'name' => 'Administrator'],
 
     /*
     |--------------------------------------------------------------------------

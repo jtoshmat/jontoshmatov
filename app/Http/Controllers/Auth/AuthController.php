@@ -10,6 +10,9 @@ use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
 class AuthController extends Controller
 {
+    protected $loginPath = '/custom';
+    protected $redirectPath = '/home';
+    protected $redirectAfterLogout = '/auth/login';
     /*
     |--------------------------------------------------------------------------
     | Registration & Login Controller
@@ -70,4 +73,5 @@ class AuthController extends Controller
             'password' => bcrypt($data['password']),
         ]);
     }
+
 }

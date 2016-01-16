@@ -23,4 +23,8 @@
         <button type="submit">Login</button>
     </div>
 </form>
+
+    <a href="/auth/register">Sign Up</a> |
+    <a href="/password/email">Forgot Password?</a>
+
 @stop

@@ -19,6 +19,7 @@
 	<link rel="stylesheet" media="screen" href="{{URL::to($template."/css/bootstrap.css")}}"/>
 	<link rel="stylesheet" media="screen" href="{{$template}}/css/bootstrap-responsive.css"/>
 	<link rel="stylesheet" media="screen" href="{{$template}}/css/style.css"/>
+	<link rel="stylesheet" media="screen" href="/css/main.css"/>
 
 	<!--main jquery libraries / others are at the bottom-->
 	<script src="{{$template}}/js/jquery-1.9.1.min.js" type="text/javascript"></script>
@@ -74,6 +75,11 @@
 			@include('partials.navigation')
 			<!--menu ends-->
 		</div>
+		@if (Auth::check())
+			<div id="welcome">
+				Welcome Jon!
+			</div>
+		@endif
 	</div>
 	<!--header-inner ends-->
 
@@ -87,9 +93,18 @@
 						<li><img src="{{$template}}/img/icons/icon-facebook.png" alt="icon">
 							<p> <a href="#">Facebook</a></p>
 						</li>
+
+						@if (!Auth::check())
 						<li><img src="{{$template}}/img/icons/icon-user.png" alt="icon">
-							<p> <a href="#myModal" role="button" data-toggle="modal">Login</a></p>
+							<p> <a href="/auth/login" role="button" data-toggle="modal">Login</a></p>
 						</li>
+						@else
+
+						<li><img src="{{$template}}/img/icons/icon-user.png" alt="icon">
+							<p> <a href="/auth/logout" role="button" data-toggle="modal">Logout</a></p>
+						</li>
+						@endif
+
 					</ul>
 				</div>
 			</div>
