@@ -1,4 +1,1 @@
-
-<h1>Sending Email.</h1>
-    <p>Where is lorem ipsum when we need?</p>
-<hr />
+Click <a href="{{ url('password/reset/'.$token) }}">here</a>  to reset your password:
