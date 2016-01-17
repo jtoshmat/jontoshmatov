@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="app,software responsive site template" />
+<meta name="keywords" content="app,software,ipad,iphone,marketing,responsive,business,marketing,corporate"/>
+<meta name="author" content="Tansh" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<title>Appplechic by Tansh</title>
+
+<!--Fav and touch icons-->
+<link rel="shortcut icon" href="img/icons/favicon.ico">
+<link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-touch-icon-114x114.png">
+
+<!--google web font-->
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
+
+<!--basic style sheets-->
+<link rel="stylesheet" media="screen" href="css/bootstrap.css"/>
+<link rel="stylesheet" media="screen" href="css/bootstrap-responsive.css"/>
+<link rel="stylesheet" media="screen" href="css/style.css"/>
+
+<!--main jquery libraries / others are at the bottom-->
+<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="js/modernizr.js" type="text/javascript"></script>
+
+<!--flexslider scripts starts-->
+<link rel="stylesheet" media="screen" href="css/flexslider.css"/>
+<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+<script type="text/javascript"> 
+$(window).load(function() {
+//Image Slider
+$('.image-slider').flexslider({
+    	animation: "fade",
+		slideshowSpeed: 4000,
+		animationDuration: 600,
+    	controlNav: false,
+    	keyboardNav: true,
+    	directionNav: true,
+		pauseOnHover: true,
+		pauseOnAction: true,
+});
+});
+</script>
+<!--flexslider scripts ends-->
+
+</head>
+<body>
+
+<!-- header starts
+================================================== -->
+<section id="header" class="clearfix"> 
+    
+    <!--header-inner starts-->
+    <div id="header-inner" class="container">
+        <div class="row"> 
+            
+            <!--logo starts-->
+            <div class="span4 logo"><a href="#"><img src="img/logo.png" width="128" height="28" alt="logo"></a></div>
+            <!--logo ends--> 
+            
+            <!--menu starts-->
+            <div class="span8">
+                <div id="smoothmenu" class="ddsmoothmenu">
+                    <ul id="nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a> </li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="#">Pages</a>
+                            <ul>
+                                <li><a href="index-1.html">Home variation</a> </li>
+                                <li><a href="index.html">Colors</a>
+                                    <ul>
+                                        <li><a href="../index.html">Orange</a></li>
+                                        <li><a href="../green/index.html">Green</a></li>
+                                        <li><a href="../blue/index.html">Blue</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="portfolio-3col.html">Portfolio</a>
+                                    <ul>
+                                        <li><a href="portfolio-3col.html">Portfolio - 3 column</a></li>
+                                        <li><a href="portfolio-4col.html">Portfolio - 4 column</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="coming-soon.html">Coming soon</a> </li>
+                                <li><a href="404.html">404 error page</a> </li>
+                                <li><a href="multipost-2col.html" class="selected">Blog</a>
+                                    <ul>
+                                        <li><a href="multipost-2col.html" class="selected">Multiposts - 2 column</a> </li>
+                                        <li><a href="multipost.html">Multiposts - 1 column</a> </li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contact</a> </li>
+                                <li><a href="shortcodes.html">Shortcodes</a> </li>
+                            </ul>
+                        </li>
+                        <li><a href="pricing-4col.html">Pricing</a>
+                            <ul>
+                                <li><a href="pricing-5col.html"> Pricing - 5 column</a></li>
+                                <li><a href="pricing-4col.html"> Pricing - 4 column</a></li>
+                                <li><a href="pricing-3col.html"> Pricing - 3 column</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="support.html">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--menu ends--> 
+            
+        </div>
+    </div>
+    <!--header-inner ends--> 
+    
+    <!--header-btm starts-->
+    <div id="header-btm">
+        <div class="container">
+            <div class="row">
+                <div class="span12"> <img src="img/icons/icon-phone.png" alt="icon">
+                    <p>Call for support / 123 456 789</p>
+                    <ul>
+                        <li><img src="img/icons/icon-facebook.png" alt="icon">
+                            <p> <a href="#">Facebook</a></p>
+                        </li>
+                        <li><img src="img/icons/icon-user.png" alt="icon">
+                            <p> <a href="#myModal" role="button" data-toggle="modal">Login</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--header-btm ends--> 
+    
+</section>
+<!-- header ends
+================================================== --> 
+
+<!-- content starts
+================================================== -->
+<section id="content" class="clearfix"> 
+    
+    <!-- ======= content-intro starts ======= -->
+    <div id="content-intro">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <h1>Blog</h1>
+                    
+                    <!--breadcrumb starts-->
+                    <ul class="breadcrumb">
+                        <li><a href="#">Pages</a> <span>/</span></li>
+                        <li><a href="#">Blog</a> <span>/</span></li>
+                        <li class="active">Multiposts - 2 col</li>
+                    </ul>
+                    <!--breadcrumb ends--> 
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ======= content-intro ends ======= --> 
+    
+    <!-- ======= general row starts ======= -->
+    
+    <div class="container row-general">
+        <div class="container">
+            <div class="row"> 
+                
+                <!--main content starts-->
+                <div id="main-content" class="span8">
+                    <div class="row"> 
+                        
+                        <!--first / slider post starts-->
+                        <div class="span4">
+                            <div class="frame-icon">
+                                <div class="flexslider image-slider">
+                                    <ul class="slides">
+                                        <li><img src="img/preview/thumb-7.jpg" width="420" alt="image"></li>
+                                        <li><img src="img/preview/thumb-3.jpg" width="420" alt="image"></li>
+                                        <li><img src="img/preview/thumb-8.jpg" width="420" alt="image"></li>
+                                    </ul>
+                                </div>
+                                <span class="icon-bg"><img src="img/icons/icon-posttype-polaroid.png" alt="icon"></span></div>
+                            <h3>'Slider post'  faucibus sodales lectorum auctor fringilla libero heading here</h3>
+                            <ul class="list-dot">
+                                <li><a href="#">John Doe</a> </li>
+                                <li>Jan 5th, 2013 </li>
+                                <li> <a href="#">7 Comments</a></li>
+                                <li> <a href="#">App</a>, <a href="#">Software</a>, <a href="#">Technology</a>, <a href="#">Responsive</a> </li>
+                            </ul>
+                            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>
+                            <a href="#" class="mybtn">Read More</a> </div>
+                        <!--first post ends--> 
+                        
+                        <!--second / image post starts-->
+                        <div class="span4">
+                            <div class="frame-icon"> <img src="img/preview/thumb-1.jpg" alt="image"> <span class="icon-bg"><img src="img/icons/icon-posttype-camera.png" alt="icon"></span></div>
+                            <h3>'Image post'  faucibus sodales morbi auctor fringilla libero heading here</h3>
+                            <ul class="list-dot">
+                                <li><a href="#">Jenny Dowe</a> </li>
+                                <li>Dece 25th, 2013 </li>
+                                <li> <a href="#">5 Comments</a></li>
+                                <li> <a href="#">Image</a>, <a href="#">Software</a>, <a href="#">retina</a>, <a href="#">iphone</a> </li>
+                            </ul>
+                            <p>Nam dolor ligula, faucibus id sodales in qui auctor fringilla libero. Pellentesque lectorum proces tempor tellus eget hendrerit dui sem. </p>
+                            <a href="#" class="mybtn">Read More</a> </div>
+                        <!--second post ends--> 
+                        
+                        <!--divider here-->
+                        <div class="span8">
+                            <div class="divider"></div>
+                        </div>
+                        
+                        <!--third / youtube post starts-->
+                        <div class="span4">
+                            <div class="frame-icon">
+                                <iframe width="600" height="290" src="http://www.youtube.com/embed/GgR6dyzkKHI"></iframe>
+                                <span class="icon-bg"><img src="img/icons/icon-posttype-preview.png" alt="icon"></span></div>
+                            <h3>'Youtube post'  faucibus sodales nam dolor ligula auctor heading here</h3>
+                            <ul class="list-dot">
+                                <li><a href="#">Alizee Anderson</a> </li>
+                                <li>Dece 16th, 2013 </li>
+                                <li> <a href="#">3 Comments</a></li>
+                                <li> <a href="#">Youtube</a>, <a href="#">video</a>, <a href="#">Technology</a>, <a href="#">Responsive</a> </li>
+                            </ul>
+                            <p>Fringilla autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat irumtare nulla tempor.</p>
+                            <a href="#" class="mybtn">Read More</a> </div>
+                        <!--third post ends--> 
+                        
+                        <!--fourth / vimeo post starts-->
+                        <div class="span4">
+                            <div class="frame-icon">
+                                <iframe src="http://player.vimeo.com/video/7449107" width="600" height="290"></iframe>
+                                <span class="icon-bg"><img src="img/icons/icon-posttype-preview.png" alt="icon"></span></div>
+                            <h3>'Vimeo post'   lectorum sodales nam dolor ligula auctor heading here</h3>
+                            <ul class="list-dot">
+                                <li><a href="#">John Doe</a> </li>
+                                <li>Dece 5th, 2013 </li>
+                                <li> <a href="#">2 Comments</a></li>
+                                <li> <a href="#">Vimeo</a>, <a href="#">Software</a>, <a href="#">video</a>, <a href="#">Responsive</a> </li>
+                            </ul>
+                            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eusem feugiat nulla facilisis. </p>
+                            <a href="#" class="mybtn">Read More</a> </div>
+                        <!--fourth post ends--> 
+                        
+                        <!--divider here-->
+                        <div class="span8">
+                            <div class="divider"></div>
+                        </div>
+                        
+                        <!--fifth / audio post starts-->
+                        <div class="span4">
+                            <audio controls loop>
+                                <source src="http://your-media-path.ogg" type="audio/ogg" />
+                            </audio>
+                            <h3>'Audio post'  faucibus sodales lectorum auctor fringilla libero heading here</h3>
+                            <ul class="list-dot">
+                                <li><a href="#">Mike R.</a> </li>
+                                <li>Dece 1st, 2013 </li>
+                                <li> <a href="#">9 Comments</a></li>
+                                <li> <a href="#">Audio</a>, <a href="#">Software</a>, <a href="#">Music</a>, <a href="#">Responsive</a> </li>
+                            </ul>
+                            <p>faucibus nam dolor ligula id sodales in qui auctor fringilla libero id aliquam ligula aliquam.</p>
+                            <a href="#" class="mybtn">Read More</a> </div>
+                        <!--fifth post ends--> 
+                        
+                        <!--sixth / text only post starts-->
+                        <div class="span4">
+                            <h3>'Text only post'  faucibus sodales lectorum libero heading here</h3>
+                            <ul class="list-dot">
+                                <li><a href="#">John Doe</a> </li>
+                                <li>Dece 1st, 2013 </li>
+                                <li> <a href="#">3 Comments</a></li>
+                                <li> <a href="#">Text</a>, <a href="#">Software</a>, <a href="#">Technology</a>, <a href="#">Responsive</a> </li>
+                            </ul>
+                            <p class="review">Nulla nunc dui faucibus id sodales in qui auctor fringilla libero. Pellentesque lectorum proces tempor tellus eget hendrerit. Morbi id aliquam ligula. Aliquam id dui quam littera. </p>
+                            <a href="#" class="mybtn">Read More</a> </div>
+                        <!--sixth post ends--> 
+                        
+                    </div>
+                    
+                    <!--pagination starts-->
+                    <div class="pagination">
+                        <ul>
+                            <li class="disabled"><a href="#">&laquo;</a></li>
+                            <li class="active"><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">&raquo;</a></li>
+                        </ul>
+                    </div>
+                    <!--pagination ends--> 
+                    
+                </div>
+                <!--main content ends--> 
+                
+                <!--sidebar starts-->
+                <div class="span4">
+                    <div id="sidebar-right"> 
+                        
+                        <!--search form here-->
+                        <form id="searchform" method=".">
+                            <fieldset>
+                                <p>
+                                    <input type="text" placeholder="Search">
+                                    <input type="submit" value="Search" class="search-submit"/>
+                                </p>
+                            </fieldset>
+                        </form>
+                        
+                        <!--tabs here-->
+                        <div class="divider"></div>
+                        <ul class="nav nav-tabs" id="myTab">
+                            <li class="active"><a href="#A"><i class="icon-star"></i> Popular</a></li>
+                            <li><a href="#B"> <i class="icon-tags"></i></a></li>
+                            <li><a href="#C">Some text</a></li>
+                        </ul>
+                        <div class="tab-content"> 
+                            
+                            <!--first tab-->
+                            <div class="tab-pane active" id="A">
+                                <ul class="list-unstyled">
+                                    <li> <img src="img/preview/thumb-4.jpg" width="70" alt="image" class="frame img-left">
+                                        <h5><a href="#">Post title lorem ipsum dolor sit amet here</a></h5>
+                                        <p>By <a href="#" class="text-small">John Doe</a></p>
+                                        <p>Mirum est notare quam littera gothica faucibus id sodales in qui auctor libero.</p>
+                                    </li>
+                                    <li> <img src="img/preview/thumb-1.jpg" width="70" alt="image" class="frame img-left">
+                                        <h5><a href="#">Post title lorem ipsum dolor sit amet here</a></h5>
+                                        <p>By <a href="#" class="text-small">John Doe</a></p>
+                                        <p>Mirum est notare quam littera gothica faucibus id sodales in qui auctor libero.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <!--second tab-->
+                            <div class="tab-pane" id="B">
+                                <ul class="tags">
+                                    <li><a href="#">Software</a></li>
+                                    <li><a href="#">Apps</a> </li>
+                                    <li><a href="#">Responsive</a> </li>
+                                    <li><a href="#">ipad</a> </li>
+                                    <li><a href="#">Marketing</a> </li>
+                                    <li><a href="#">iphone</a> </li>
+                                    <li><a href="#">Business</a></li>
+                                    <li><a href="#">retina</a> </li>
+                                    <li><a href="#">compatibility</a> </li>
+                                    <li><a href="#">support</a></li>
+                                </ul>
+                            </div>
+                            
+                            <!--third tab-->
+                            <div class="tab-pane" id="C">
+                                <p>Mirum est notare quam littera gothica faucibus id sodales in qui auctor libero.</p>
+                                <ul class="list-arrow">
+                                    <li>App development</li>
+                                    <li>Software development</li>
+                                    <li>Graphic design</li>
+                                    <li>Web marketing analysis</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!--categories here-->
+                        <div class="divider"></div>
+                        <h4>Categories</h4>
+                        <ul class="list-checkmark">
+                            <li>App development</li>
+                            <li>Software development</li>
+                            <li>Graphic design</li>
+                            <li>Web marketing analysis</li>
+                        </ul>
+                        
+                        <!--styled box here-->
+                        <div class="divider"></div>
+                        <div class="box-styled">
+                            <div class="box-head clearfix">
+                                <h4 style="margin-top: 10px;">John Doe <span>CEO/anything.com</span></h4>
+                                <div class="photo"><img src="img/preview/user-1.jpg" alt="img"></div>
+                            </div>
+                            <div class="box-body review"> Claritas est etiam processynamicus, qui quitur mutationemconsuetudium 
+                                lectorum irumtare quam littera liber tempor cum soluta nobis eleifend option congue imperdiet doming. </div>
+                        </div>
+                        
+                        <!--text widget here-->
+                        <div class="divider"></div>
+                        <h4>Basic text widget</h4>
+                        Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula faucibus id sodales in auctor fringilla. 
+                        
+                        <!--twitter feed here-->
+                        <div class="divider"></div>
+                        <h4>Latest tweet</h4>
+                        <div class="twitter"></div>
+                    </div>
+                </div>
+                <!--sidebar ends--> 
+                
+            </div>
+        </div>
+    </div>
+    <!-- ======= general row ends ======= --> 
+    
+</section>
+<!-- content ends
+================================================== --> 
+
+<!-- footer starts
+================================================== -->
+<footer id="footer" class="clearfix">
+    <div id="footer-inner" class="container">
+        <div class="row"> 
+            
+            <!--first column starts-->
+            <div class="span3">
+                <h4>2012 © Applechic.</h4>
+                <p>Write some information or quote about your liber tempor cum soluta nobis eleifend option congue nihil doming id company or product.</p>
+                <img src="img/logo.png" alt="logo"> </div>
+            <!--first column ends--> 
+            
+            <!--second column starts-->
+            <div class="span3">
+                <h4>Applechic Newsletter</h4>
+                <p>Join applechic to receive lorem ipsum news about new products and product updates.</p>
+                <p class="text-vsmall">* Some kind of declaration here.</p>
+                <form  id="subform" method="post" action="subscribe-form.php">
+                    <fieldset>
+                        <p>
+                            <input name="email"  class="required email" type="text" placeholder="Email here">
+                            <input type="submit" value="OK" class="sub-submit"/>
+                        </p>
+                        <div id="subresult"></div>
+                    </fieldset>
+                </form>
+            </div>
+            <!--second column ends--> 
+            
+            <!--third column starts-->
+            <div class="span3">
+                <h4>Flickr Stream</h4>
+                <div class="flickr"> 
+                    <script  type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=6&amp;display=latest&amp;size=s&amp;layout=x&amp;source=user&amp;user=52617155@N08"></script> 
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <!--third column ends--> 
+            
+            <!--fourth column starts-->
+            <div class="span3">
+                <h4>Contact Us</h4>
+                <address>
+                Applechic Studios.<br/>
+                3245 East Creek Blvd, Suite 590<br/>
+                Bos Boomer, IN 20076
+                </address>
+                <ul class="social">
+                    <li><img src="img/icons/icon-twitter.png" alt="icon"></li>
+                    <li><img src="img/icons/icon-dribbble.png" alt="icon"></li>
+                    <li><img src="img/icons/icon-googleplus.png" alt="icon"></li>
+                    <li><img src="img/icons/icon-linkedin.png" alt="icon"></li>
+                    <li><img src="img/icons/icon-skype.png" alt="icon"></li>
+                    <li><img src="img/icons/icon-pinterest.png" alt="icon"></li>
+                </ul>
+            </div>
+            <!--fourth column ends--> 
+            
+        </div>
+    </div>
+</footer>
+<!-- footer ends
+================================================== --> 
+
+<!--modal for login form starts -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">Login with Appplechic</h3>
+    </div>
+    <div class="modal-body"> 
+        
+        <!--form starts-->
+        <div class="row">
+            <div class="span5">
+                <form method="post" action=".">
+                    <fieldset>
+                        <p>
+                            <label>Username</label>
+                            <input name="name"  type="text" placeholder="Username">
+                        </p>
+                        <p>
+                            <label>Password</label>
+                            <input name="password"  type="password" placeholder="Password">
+                        </p>
+                        <p>
+                            <input type="submit" value="Login" class="submit"/>
+                        </p>
+                    </fieldset>
+                </form>
+                <div class="clearfix"></div>
+                <p><a href="#">Forgot username / password?</a> | <a href="#">Login with Facebook</a></p>
+            </div>
+        </div>
+        <!--form starts--> 
+        
+    </div>
+</div>
+<!--modal for login form ends --> 
+
+<!--other jqueries required--> 
+<script src="js/bootstrap.js" type="text/javascript" ></script> 
+<script src="js/ddsmoothmenu.js" type="text/javascript" ></script> 
+<script src="js/jquery.validate.js" type="text/javascript" ></script> 
+<script src="js/jquery.form.js" type="text/javascript" ></script> 
+<script src="twitter/twitter.js" type="text/javascript" ></script> 
+<script src="js/selectnav.js" type="text/javascript" ></script> 
+<script src="js/custom.js" type="text/javascript" ></script>
+</body>
+</html>

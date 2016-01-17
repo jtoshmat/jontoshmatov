@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="not-ie" lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="description" content="app,software responsive site template" />
+<meta name="keywords" content="app,software,ipad,iphone,marketing,responsive,business,marketing,corporate"/>
+<meta name="author" content="Tansh" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<title>Appplechic by Tansh</title>
+
+<!--Fav and touch icons-->
+<link rel="shortcut icon" href="img/icons/favicon.ico">
+<link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-touch-icon-114x114.png">
+
+<!--google web font-->
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
+
+<!--basic style sheets-->
+<link rel="stylesheet" media="screen" href="css/bootstrap.css"/>
+<link rel="stylesheet" media="screen" href="css/docs.css"/>
+<link rel="stylesheet" media="screen" href="css/bootstrap-responsive.css"/>
+<link rel="stylesheet" media="screen" href="css/style.css"/>
+
+<!--main jquery libraries / others are at the bottom-->
+<script src="js/jquery-1.8.3.min.js" type="text/javascript" ></script>
+<script src="js/modernizr.js" type="text/javascript"></script>
+
+<!--prettify scripts starts-->
+<script src="js/prettify.js" type="text/javascript"></script>
+<link rel="stylesheet" media="screen" href="css/prettify.css"/>
+<script>
+// Activate Google Prettify in this page
+addEventListener('load', prettyPrint, false);
+$(document).ready(function(){
+// Add prettyprint class to pre elements
+$('pre').addClass('prettyprint');
+}); // end document.ready
+</script>
+<!--prettify scripts ends-->
+
+</head>
+<body>
+<!-- header starts
+================================================== -->
+<section id="header" class="clearfix"> 
+  
+  <!--header-inner starts-->
+  <div id="header-inner" class="container">
+    <div class="row"> 
+      
+      <!--logo starts-->
+      <div class="span4"><a href="index.html"><img src="img/logo.png" width="128" height="28" alt="logo"></a></div>
+      <!--logo ends--> 
+      
+      <!--menu starts-->
+      <div class="span8">
+        <h2 style="text-align: right; color: #fff;">Shortcodes</h2>
+      </div>
+      <!--menu ends--> 
+      
+    </div>
+  </div>
+  <!--header-inner ends--> 
+  
+</section>
+<!-- header ends
+================================================== --> 
+
+<!-- content starts
+================================================== -->
+<section id="content" class="clearfix"> 
+  
+  <!--tab row starts-->
+  <div class="container row-general">
+    <div class="row">
+      <div class="span12">
+        <div class="tabbable tabs-left"> 
+          
+          <!--tab navigation starts-->
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#grid" data-toggle="tab">Grid system & Nesting column</a></li>
+            <li><a href="#typo" data-toggle="tab">Typography / Others</a></li>
+            <li><a href="#list" data-toggle="tab">Lists</a></li>
+            <li><a href="#boxes" data-toggle="tab">Boxes</a></li>
+            <li><a href="#image" data-toggle="tab">Image styles</a></li>
+            <li><a href="#tabs-code" data-toggle="tab">Tabs</a></li>
+            <li><a href="#accordion-code" data-toggle="tab">Accordion</a></li>
+          </ul>
+          <!--tab navigation ends--> 
+          
+          <!--tab content starts-->
+          <div class="tab-content"> 
+            
+            <!--first tab starts-->
+            <div class="tab-pane active" id="grid">
+              <div class="box">
+                <h2>Grid example</h2>
+                <p>The default Bootstrap grid system utilizes 12 columns, making for a 940px wide container without responsive features enabled.</p>
+                <p> With the responsive CSS file added, the grid adapts to be 724px. Below 767px viewports, the columns become fluid and stack vertically.</p>
+                <div class="bs-docs-grid">
+                  <div class="row show-grid">
+                    <div class="span1">1</div>
+                    <div class="span1">1</div>
+                    <div class="span1">1</div>
+                    <div class="span1">1</div>
+                    <div class="span1">1</div>
+                    <div class="span1">1</div>
+                    <div class="span1">1</div>
+                    <div class="span1">1</div>
+                  </div>
+                  <div class="row show-grid">
+                    <div class="span1">1</div>
+                    <div class="span3">3</div>
+                    <div class="span4">4</div>
+                  </div>
+                  <div class="row show-grid">
+                    <div class="span4">4</div>
+                    <div class="span4">4</div>
+                  </div>
+                  <div class="row show-grid">
+                    <div class="span8">8</div>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="box">
+                <h2>Basic grid HTML</h2>
+                <p>For a simple two column layout, create a <code>.row</code> and add the appropriate number of <code>.span*</code> columns. As this is a 12-column grid, each <code>.span*</code> spans a number of those 12 columns, and should always add up to 12 for each row (or the number of columns in the parent).</p>
+                <pre class="prettyprint linenums">
+&lt;div class="row"&gt;
+  &lt;div class="span8"&gt;...&lt;/div&gt;
+  &lt;div class="span4"&gt;...&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+                <p>Given this example, we have <code>.span8</code> and <code>.span4</code>, making for 12 total columns and a complete row.</p>
+              </div>
+              <div class="divider"></div>
+              <div class="box">
+                <h2>Nesting columns</h2>
+                <p>To nest your content with the default grid, add a new <code>.row</code> and set of <code>.span*</code> columns within an existing <code>.span*</code> column. Nested rows should include a set of columns that add up to the number of columns of its parent.</p>
+                <div class="row show-grid">
+                  <div class="span8"> Level 1 column
+                    <div class="row show-grid">
+                      <div class="span4"> Level 2 </div>
+                      <div class="span4"> Level 2 </div>
+                    </div>
+                  </div>
+                </div>
+                <pre class="prettyprint linenums">
+&lt;div class="row"&gt;
+  &lt;div class="span8"&gt;
+    Level 1 column
+    &lt;div class="row"&gt;
+      &lt;div class="span4"&gt;Level 2&lt;/div&gt;
+      &lt;div class="span4"&gt;Level 2&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+              </div>
+            </div>
+            <!--first tab ends--> 
+            
+            <!--second tab starts-->
+            <div class="tab-pane" id="typo">
+              <div class="box">
+                <h2>Headings</h2>
+                <p>All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code> are available.</p>
+                <div class="bs-docs-example">
+                  <h1>h1. Heading 1</h1>
+                  <h2>h2. Heading 2</h2>
+                  <h3>h3. Heading 3</h3>
+                  <h4>h4. Heading 4</h4>
+                  <h5>h5. Heading 5</h5>
+                  <h6>h6. Heading 6</h6>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="box">
+                <h2>Bold</h2>
+                <p>For emphasizing a snippet of text with a heavier font-weight.</p>
+                <div class="bs-docs-example">
+                  <p>The following snippet of text is <strong>rendered as bold text</strong>.</p>
+                </div>
+                <pre class="prettyprint">&lt;strong&gt;rendered as bold text&lt;/strong&gt;</pre>
+              </div>
+              <div class="divider"></div>
+              <div class="box">
+                <h2>Emphasis classes</h2>
+                <p>Convey meaning through color with a handful of emphasis utility classes.</p>
+                <div class="bs-docs-example">
+                  <h4>Theme default</h4>
+                  <p>Donec ullamcorper <span class="color">nulla non metus</span> fringilla.</p>
+                  <div class="spacer-10px"></div>
+                  <pre class="prettyprint linenums">
+&lt;p&gt; Donec ullamcorper &lt;span class="color"&gt; nulla non metus &lt;/span&gt; fringilla.&lt;/p&gt;
+</pre>
+                  <div class="spacer-10px"></div>
+                  <h4>From bootstrap</h4>
+                  <p class="muted">1. Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+                  <p class="text-warning">2. Etiam porta sem malesuada magna mollis euismod.</p>
+                  <p class="text-error">3. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                  <p class="text-info">4. Aenean eu leo quam. Pellentesque ornare sem quam venenatis.</p>
+                  <p class="text-success">5. Duis mollis, non commodo luctus erat porttitor ligula.</p>
+                </div>
+                <pre class="prettyprint linenums">
+&lt;p class="muted"&gt;Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.&lt;/p&gt;
+&lt;p class="text-warning"&gt;Etiam porta sem malesuada magna mollis euismod.&lt;/p&gt;
+&lt;p class="text-error"&gt;Donec ullamcorper nulla non metus auctor fringilla.&lt;/p&gt;
+&lt;p class="text-info"&gt;Aenean eu leo quam. Pellentesque ornare sem quam venenatis.&lt;/p&gt;
+&lt;p class="text-success"&gt;Duis mollis, non commodo luctus erat porttitor ligula.&lt;/p&gt;
+</pre>
+              </div>
+              <div class="divider"></div>
+              <div class="box">
+                <h2>Blockquotes</h2>
+                <p>For quoting blocks of content from another source within your document.</p>
+                <h4>Default blockquote</h4>
+                <p>Wrap <code>&lt;blockquote&gt;</code> around any HTML as the quote. For straight quotes we recommend a <code>&lt;p&gt;</code>.</p>
+                <div class="bs-docs-example">
+                  <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                  </blockquote>
+                </div>
+                <pre class="prettyprint linenums">
+&lt;blockquote&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;/p&gt;
+&lt;/blockquote&gt;
+</pre>
+                <h4>Blockquote options</h4>
+                <p>Style and content changes for simple variations on a standard blockquote.</p>
+                <h5>Naming a source</h5>
+                <p>Add <code>&lt;small&gt;</code> tag for identifying the source.</p>
+                <div class="bs-docs-example">
+                  <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <small>Someone famous in Source Title</small> </blockquote>
+                </div>
+                <pre class="prettyprint linenums">
+&lt;blockquote&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere a ante.&lt;/p&gt;
+  &lt;small&gt;Someone famous in Source Title&lt;/small&gt;
+&lt;/blockquote&gt;
+</pre>
+                <h5>Alternate displays</h5>
+                <p>Use <code>.pull-right</code> for a floated, right-aligned blockquote.</p>
+                <div class="bs-docs-example" style="overflow: hidden;">
+                  <blockquote class="pull-right">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <small>Someone famous in Source Title</small> </blockquote>
+                </div>
+                <pre class="prettyprint linenums">
+&lt;blockquote class="pull-right"&gt;
+  ...
+&lt;/blockquote&gt;
+</pre>
+              </div>
+            </div>
+            <!--second tab ends--> 
+            
+            <!--third tab starts-->
+            <div class="tab-pane" id="list">
+              <div class="box clearfix">
+                <div class="half">
+                  <h4>Unordered</h4>
+                  <p>A list of items in which the order does <em>not</em> explicitly matter.</p>
+                  <div class="bs-docs-example">
+                    <ul class="list-unordered">
+                      <li>Lorem ipsum dolor sit amet</li>
+                      <li>Consectetur adipiscing elit</li>
+                      <li>Nulla volutpat aliquam velit
+                        <ul>
+                          <li>Phasellus iaculis neque</li>
+                          <li>Purus sodales ultricies</li>
+                          <li>Ac tristique libero volutpat at</li>
+                        </ul>
+                      </li>
+                      <li>Faucibus porta lacus fringilla vel</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="half-last">
+                  <pre class="prettyprint linenums">
+&lt;ul class="list-unordered"&gt;
+  &lt;li&gt;Some text&lt;/li&gt;
+  &lt;li&gt;Some text
+    &lt;ul&gt;
+  	&lt;li&gt;Some text&lt;/li&gt;
+  	&lt;li&gt;Some text&lt;/li&gt;
+  	&lt;li&gt;Some text&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Some text&lt;/li&gt;
+  &lt;li&gt;Some text&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+                </div>
+                <div class="spacer-20px"></div>
+                <div class="half">
+                  <h4>Ordered</h4>
+                  <p>A list of items in which the order <em>does</em> explicitly matter.</p>
+                  <div class="bs-docs-example">
+                    <ol class="list-ordered">
+                      <li>Lorem ipsum dolor sit amet</li>
+                      <li>Consectetur adipiscing elit</li>
+                      <li>Nulla volutpat aliquam velit
+                        <ul>
+                          <li>Phasellus iaculis neque</li>
+                          <li>Purus sodales ultricies</li>
+                          <li>Ac tristique libero volutpat at</li>
+                        </ul>
+                      </li>
+                      <li>Faucibus porta lacus fringilla vel</li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="half-last">
+                  <pre class="prettyprint linenums">
+&lt;ol class="list-ordered"&gt;
+  &lt;li&gt;Some text&lt;/li&gt;
+  &lt;li&gt;Some text
+    &lt;ul&gt;
+  	&lt;li&gt;Some text&lt;/li&gt;
+  	&lt;li&gt;Some text&lt;/li&gt;
+  	&lt;li&gt;Some text&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Some text&lt;/li&gt;
+  &lt;li&gt;Some text&lt;/li&gt;
+&lt;/ol&gt;
+</pre>
+                </div>
+                <div class="spacer-20px"></div>
+                <div class="half">
+                  <h4>Checkmark list</h4>
+                  <div class="bs-docs-example">
+                    <ul class="list-checkmark">
+                      <li>Lorem ipsum dolor sit amet</li>
+                      <li>Consectetur adipiscing elit</li>
+                      <li>Nulla volutpat aliquam velit</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="half-last">
+                  <pre class="prettyprint linenums">
+&lt;ul class="list-checkmark"&gt;
+  &lt;li&gt;Some text&lt;/li&gt;
+  &lt;li&gt;Some text&lt;/li&gt;
+  &lt;li&gt;Some text&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+                </div>
+                <div class="spacer-20px"></div>
+                <div class="half">
+                  <h4>Arrow list</h4>
+                  <div class="bs-docs-example">
+                    <ol class="list-arrow">
+                      <li>Lorem ipsum dolor sit amet</li>
+                      <li>Consectetur adipiscing elit</li>
+                      <li>Faucibus porta lacus fringilla vel</li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="half-last">
+                  <pre class="prettyprint linenums">
+&lt;ol class="list-arrow"&gt;
+  &lt;li&gt;Some text&lt;/li&gt;
+  &lt;li&gt;Some text&lt;/li&gt;
+  &lt;li&gt;Some text&lt;/li&gt;
+&lt;/ol&gt;
+</pre>
+                </div>
+              </div>
+            </div>
+            <!--third tab ends--> 
+            
+            <!--fourth / box tab starts-->
+            <div class="tab-pane" id="boxes">
+              <div class="box clearfix">
+                <div class="half">
+                  <div class="box">
+                    <h3>This is simple box</h3>
+                    <p>Claritas est etiam processynamicus, qui quitur mutationem lectorum irumtare quam littera liber tempor soluta </p>
+                  </div>
+                </div>
+                <div class="half-last">
+                  <pre class="prettyprint linenums">
+&lt;div class="box"&gt; 
+Some text here
+&lt;/div&gt;</pre>
+                </div>
+                <div class="spacer-20px"></div>
+                <div class="half">
+                  <div class="box info">
+                    <h3>This is info box</h3>
+                    <p>Claritas est etiam processynamicus, qui quitur mutationem lectorum irumtare quam littera liber tempor soluta </p>
+                  </div>
+                </div>
+                <div class="half-last">
+                  <pre class="prettyprint linenums">
+&lt;div class="box info"&gt; 
+Some text here
+&lt;/div&gt;</pre>
+                </div>
+                <div class="spacer-20px"></div>
+                <div class="half">
+                  <div class="box review">
+                    <h3>This is quote box</h3>
+                    <p>Claritas est etiam processynamicus, qui quitur mutationem lectorum irumtare quam littera liber tempor soluta </p>
+                  </div>
+                </div>
+                <div class="half-last">
+                  <pre class="prettyprint linenums">
+&lt;div class="box review"&gt; 
+Some text here
+&lt;/div&gt;</pre>
+                </div>
+                <div class="spacer-20px"></div>
+                <div class="half">
+                  <div class="box-styled">
+                    <div class="box-head clearfix">
+                      <h4>Styled box</h4>
+                    </div>
+                    <div class="box-body"> Claritas est etiam processynamicus, qui quitur mutationemconsuetudium 
+                      lectorum irumtare quam littera liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming. </div>
+                  </div>
+                </div>
+                <div class="half-last">
+                  <pre class="prettyprint linenums">
+&lt;div class="box-styled"&gt;
+  &lt;div class="box-head clearfix"&gt;
+    &lt;h4&gt;Some heading here&lt;/h4&gt;
+  &lt;/div&gt;
+  &lt;div class="box-body"&gt; 
+    Some text here
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+                </div>
+                <div class="half">
+                  <div class="box-styled">
+                    <div class="box-head clearfix">
+                      <h4>Styled box for review</h4>
+                    </div>
+                    <div class="box-body review"> Claritas est etiam processynamicus, qui quitur mutationemconsuetudium 
+                      lectorum irumtare quam littera liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming. </div>
+                  </div>
+                </div>
+                <div class="half-last">
+                  <pre class="prettyprint linenums">
+&lt;div class="box-styled"&gt;
+  &lt;div class="box-head clearfix"&gt;
+    &lt;h4&gt;Some heading here&lt;/h4&gt;
+  &lt;/div&gt;
+  &lt;div class="box-body review"&gt; 
+    Some text here
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+                </div>
+                <div class="half">
+                  <div class="box-styled">
+                    <div class="box-head clearfix">
+                      <h4>Styled box for info</h4>
+                    </div>
+                    <div class="box-body info"> Claritas est etiam processynamicus, qui quitur mutationemconsuetudium 
+                      lectorum irumtare quam littera liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming. </div>
+                  </div>
+                </div>
+                <div class="half-last">
+                  <pre class="prettyprint linenums">
+&lt;div class="box-styled"&gt;
+  &lt;div class="box-head clearfix"&gt;
+    &lt;h4&gt;Some heading here&lt;/h4&gt;
+  &lt;/div&gt;
+  &lt;div class="box-body info"&gt; 
+    Some text here
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+                </div>
+                <div class="spacer-20px"></div>
+              </div>
+            </div>
+            <!--fourth tab ends--> 
+            
+            <!--fifth / image tab starts-->
+            <div class="tab-pane" id="image">
+              <div class="box clearfix">
+                <h3>Image to left</h3>
+                <img src="img/preview/slide-3.png" alt="image" class="img-left" width="150">
+                <p>Claritas est etiam processynamicus, qui quitur soluta lectorum irumtare quam littera liber. Nam dolor ligula, faucibus id sodales in qui auctor fringilla libero. Pellentesque lectorum proces tempor tellus eget hendrerit dui sem. Eodem modo typi, qui nunc nobis videntur parum clari, fiant autem sollemnes in futurum velit esse possim molestie consequat.</p>
+                <div class="spacer-20px"></div>
+                <pre class="prettyprint linenums">
+&lt;img src="" alt="image" class="img-left"&gt; 
+</pre>
+                <div class="divider"></div>
+                <h3>Image to right</h3>
+                <img src="img/preview/slide-2.png" alt="image" class="img-right" width="150">
+                <p>Claritas est etiam processynamicus, qui quitur soluta lectorum irumtare quam littera liber. Nam dolor ligula, faucibus id sodales in qui auctor fringilla libero. Pellentesque lectorum proces tempor tellus eget hendrerit dui sem. Eodem modo typi, qui nunc nobis videntur parum clari, fiant autem sollemnes in futurum velit esse possim molestie consequat.</p>
+                <div class="spacer-20px"></div>
+                <pre class="prettyprint linenums">
+&lt;img src="" alt="image" class="img-right"&gt; 
+</pre>
+                <div class="divider"></div>
+                <h3>Image with frame</h3>
+                <div class="row">
+                  <div class="span4">
+                    <div class="frame"> <img src="img/preview/thumb-1.jpg" alt="image"> </div>
+                  </div>
+                </div>
+                <div class="spacer-20px"></div>
+                <pre class="prettyprint linenums">
+&lt;div class="frame"&gt; &lt;img src="img/preview/thumb-1.jpg" alt="image"&gt; &lt;/div&gt; 
+</pre>
+                <div class="divider"></div>
+                <h3>Image to left with frame</h3>
+                <img src="img/preview/thumb-1.jpg" alt="image" class="img-left frame" width="150">
+                <p>Claritas est etiam processynamicus, qui quitur soluta lectorum irumtare quam littera liber. Nam dolor ligula, faucibus id sodales in qui auctor fringilla libero. Pellentesque lectorum proces tempor tellus eget hendrerit dui sem. Eodem modo typi, qui nunc nobis videntur parum clari, fiant autem sollemnes in futurum velit esse possim molestie consequat.</p>
+                <div class="spacer-20px"></div>
+                <pre class="prettyprint linenums">
+&lt;img src="" alt="image" class="img-left frame"&gt; 
+</pre>
+                <div class="divider"></div>
+                <h3>Image to right with frame</h3>
+                <img src="img/preview/thumb-3.jpg" alt="image" class="img-right frame" width="150">
+                <p>Claritas est etiam processynamicus, qui quitur soluta lectorum irumtare quam littera liber. Nam dolor ligula, faucibus id sodales in qui auctor fringilla libero. Pellentesque lectorum proces tempor tellus eget hendrerit dui sem.Eodem modo typi, qui nunc nobis videntur parum clari, fiant autem sollemnes in futurum velit esse possim molestie consequat. </p>
+                <div class="spacer-20px"></div>
+                <pre class="prettyprint linenums">
+&lt;img src="" alt="image" class="img-right frame"&gt; 
+</pre>
+                <div class="divider"></div>
+                <h3>Image with icon at bottom center</h3>
+                <div class="row">
+                  <div class="span4">
+                    <div class="frame-icon"><img src="img/preview/thumb-5.jpg" alt="img"/> <span class="icon-bg"><img src="img/icons/icon-posttype-polaroid.png" alt="icon"></span></div>
+                  </div>
+                </div>
+                <div class="spacer-20px"></div>
+                <pre class="prettyprint linenums">
+&lt;div class="frame-icon"&gt;
+  &lt;img src="" alt="img"/&gt; 
+  &lt;span class="icon-bg"&gt;
+    &lt;img src="img/icons/icon-posttype-polaroid.png" alt="icon"&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+</pre>
+              </div>
+            </div>
+            <!--fifth tab ends--> 
+            
+            <!--sixth / tabs tab starts-->
+            <div class="tab-pane" id="tabs-code">
+              <div class="box">
+                <h2>Tabs</h2>
+                <ul class="nav nav-tabs" id="myTab">
+                  <li class="active"><a href="#A">Tab 1</a></li>
+                  <li><a href="#B"> Tab 2</a></li>
+                  <li><a href="#C">Tab 3</a></li>
+                </ul>
+                <div class="tab-content">
+                  <div class="tab-pane active" id="A"> Tab 1 content here </div>
+                  <div class="tab-pane" id="B"> Tab 2 content here </div>
+                  <div class="tab-pane" id="C"> Tabs 3 content here </div>
+                </div>
+                <div class="spacer-20px"></div>
+                <pre class="prettyprint linenums">&lt;ul class="nav nav-tabs" id="myTab"&gt;
+    &lt;li class="active"&gt;&lt;a href="#A"&gt;Tab 1&lt;/a&gt;&lt;/li&gt;
+    &lt;li>&lt;a href="#B"&gt; Tab 2&lt;/a&gt;&lt;/li&gt;
+    &lt;li>&lt;a href="#C"&gt;Tab 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="tab-content"&gt; 
+    &lt;div class="tab-pane active" id="A"&gt; Tab 1 content here &lt;/div&gt;
+    &lt;div class="tab-pane" id="B"&gt; Tab 2 content here &lt;/div&gt;
+    &lt;div class="tab-pane" id="C"&gt; Tabs 3 content here &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+              </div>
+            </div>
+            <!--sixth tab ends--> 
+            
+            <!--seventh / accordion tab starts-->
+            <div class="tab-pane" id="accordion-code">
+              <div class="box">
+                <h2>Accordion</h2>
+                <!--accordion starts-->
+                <div class="accordion" id="accordion2">
+                  <div class="accordion-group">
+                    <div class="accordion-heading in_head"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> Collapse one </a> </div>
+                    <div id="collapseOne" class="accordion-body collapse in">
+                      <div class="accordion-inner"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch keffiyeh helvetica. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt of them accusamus labore sustainable VHS. </div>
+                    </div>
+                  </div>
+                  <div class="accordion-group">
+                    <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo"> Collapse two </a> </div>
+                    <div id="collapseTwo" class="accordion-body collapse">
+                      <div class="accordion-inner"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </div>
+                    </div>
+                  </div>
+                  <div class="accordion-group">
+                    <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree"> Collapse three </a> </div>
+                    <div id="collapseThree" class="accordion-body collapse">
+                      <div class="accordion-inner"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </div>
+                    </div>
+                  </div>
+                </div>
+                <!--accordion ends-->
+                <div class="spacer-20px"></div>
+                <pre class="prettyprint linenums">
+&lt;div class="accordion" id="accordion2"&gt;
+  &lt;div class="accordion-group"&gt;
+    &lt;div class="accordion-heading in_head"&gt;
+      &lt;a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"&gt;
+        Collapsible Group Item #1
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div id="collapseOne" class="accordion-body collapse in"&gt;
+      &lt;div class="accordion-inner"&gt;
+        Anim pariatur cliche...
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="accordion-group"&gt;
+    &lt;div class="accordion-heading"&gt;
+      &lt;a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo"&gt;
+        Collapsible Group Item #2
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div id="collapseTwo" class="accordion-body collapse"&gt;
+      &lt;div class="accordion-inner"&gt;
+        Anim pariatur cliche...
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+...           
+</pre>
+              </div>
+            </div>
+            <!--seventh tab ends--> 
+            
+          </div>
+          <!--tab content ends--> 
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--tab row ends--> 
+  
+</section>
+<!-- content ends
+================================================== --> 
+
+<!--other jqueries required--> 
+<script src="js/bootstrap.js" type="text/javascript" ></script> 
+<script src="js/custom.js" type="text/javascript" ></script>
+</body>
+</html>
