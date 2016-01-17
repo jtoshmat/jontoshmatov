@@ -2,15 +2,931 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e95a78e-bb0f-4b5b-9826-0eff355832fe" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jontoshmatov.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminTestController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminToolsController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/DistrictsController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/GroupsController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/MainInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/OrganizationsController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/PublicController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/RolesController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Post.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/blogpost.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/coming-soon.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/contact.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/css/bootstrap-override.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/css/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/css/elastislide.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/css/flexslider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/css/prettyPhoto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/features.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/accord-minus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/accord-plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/bg_direction_nav.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/bullet-arr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/bullet-checkmark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/carousel-controls.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/cta-btn-arr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/divider-diagonal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/dot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/feature-divider-arr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/about-infographic-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/about-infographic-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/about-infographic-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-24x24-desktop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-24x24-iPad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-24x24-iPhone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-64-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-64-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-64-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-64-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-behance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-chirp-chirp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-clipboard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-cloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-compass.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-dribbble.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-googleplus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-info.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-phone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-pinterest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-posttype-camera.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-posttype-polaroid.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-posttype-preview.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-quote.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-skype.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/icons/icon-user.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/jontoshmatov.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/nav-item-divider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/patterns/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/patterns/pattern1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/dark_rounded/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/dark_rounded/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/dark_rounded/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/dark_rounded/contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/dark_rounded/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/dark_rounded/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/dark_rounded/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/dark_square/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/dark_square/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/dark_square/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/dark_square/contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/dark_square/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/dark_square/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/dark_square/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/default/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/default/default_thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/default/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/default/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/default/sprite_next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/default/sprite_prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/default/sprite_x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/default/sprite_y.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/facebook/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/facebook/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/facebook/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/facebook/contentPatternBottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/facebook/contentPatternLeft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/facebook/contentPatternRight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/facebook/contentPatternTop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/facebook/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/facebook/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/facebook/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/light_rounded/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/light_rounded/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/light_rounded/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/light_rounded/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/light_rounded/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/light_rounded/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/light_square/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/light_square/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/light_square/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/light_square/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/prettyPhoto/light_square/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/img-browser.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/infographic-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/infographic-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/infographic-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/infographic-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/member-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/member-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/member-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/member-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/slide-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/slide-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/slide-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/slide-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/slide-small-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/slide-small-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/slide-small-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/slider-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/thumb-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/thumb-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/thumb-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/thumb-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/thumb-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/thumb-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/thumb-7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/thumb-8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/preview/user-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/ptable-divider-arr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/slider-nav-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/world-map.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/img/zoom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/index-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/js/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/js/countdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/js/custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/js/ddsmoothmenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/js/jquery-1.9.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/js/jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/js/jquery.elastislide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/js/jquery.flexslider-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/js/jquery.form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/js/jquery.isotope.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/js/jquery.prettyPhoto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/js/jquery.validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/js/modernizr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/js/selectnav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/multipost-2col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/multipost.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/portfolio-3col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/portfolio-4col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/portfolio-details.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/pricing-3col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/pricing-4col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/pricing-5col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/submit-form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/subscribe-form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/support-form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/support.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/twitter/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/twitter/lib/tmhOAuth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/twitter/lib/tmhUtilities.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blue/twitter/twitter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/blogpost.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/coming-soon.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/contact.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/css/bootstrap-override.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/css/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/css/elastislide.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/css/flexslider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/css/prettyPhoto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/features.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/accord-minus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/accord-plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/bg_direction_nav.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/bullet-arr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/bullet-checkmark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/carousel-controls.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/cta-btn-arr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/divider-diagonal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/dot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/feature-divider-arr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/about-infographic-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/about-infographic-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/about-infographic-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-24x24-desktop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-24x24-iPad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-24x24-iPhone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-64-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-64-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-64-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-64-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-behance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-chirp-chirp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-clipboard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-cloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-compass.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-dribbble.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-googleplus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-info.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-phone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-pinterest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-posttype-camera.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-posttype-polaroid.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-posttype-preview.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-quote.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-skype.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/icons/icon-user.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/jontoshmatov.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/nav-item-divider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/patterns/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/patterns/pattern1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/dark_rounded/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/dark_rounded/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/dark_rounded/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/dark_rounded/contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/dark_rounded/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/dark_rounded/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/dark_rounded/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/dark_square/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/dark_square/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/dark_square/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/dark_square/contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/dark_square/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/dark_square/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/dark_square/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/default/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/default/default_thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/default/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/default/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/default/sprite_next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/default/sprite_prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/default/sprite_x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/default/sprite_y.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/facebook/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/facebook/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/facebook/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/facebook/contentPatternBottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/facebook/contentPatternLeft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/facebook/contentPatternRight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/facebook/contentPatternTop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/facebook/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/facebook/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/facebook/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/light_rounded/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/light_rounded/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/light_rounded/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/light_rounded/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/light_rounded/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/light_rounded/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/light_square/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/light_square/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/light_square/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/light_square/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/prettyPhoto/light_square/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/img-browser.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/infographic-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/infographic-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/infographic-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/infographic-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/member-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/member-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/member-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/member-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/slide-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/slide-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/slide-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/slide-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/slide-small-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/slide-small-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/slide-small-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/slider-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/thumb-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/thumb-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/thumb-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/thumb-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/thumb-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/thumb-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/thumb-7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/thumb-8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/preview/user-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/ptable-divider-arr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/slider-nav-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/world-map.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/img/zoom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/index-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/js/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/js/countdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/js/custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/js/ddsmoothmenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/js/jquery-1.9.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/js/jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/js/jquery.elastislide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/js/jquery.flexslider-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/js/jquery.form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/js/jquery.isotope.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/js/jquery.prettyPhoto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/js/jquery.validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/js/modernizr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/js/selectnav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/multipost-2col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/multipost.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/portfolio-3col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/portfolio-4col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/portfolio-details.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/pricing-3col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/pricing-4col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/pricing-5col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/submit-form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/subscribe-form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/support-form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/support.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/twitter/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/twitter/lib/tmhOAuth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/twitter/lib/tmhUtilities.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/green/twitter/twitter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/adobeomniture.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/auto.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/business.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/cakephp2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/confirmation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/css.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/farm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/finanagentselected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/findanagent.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/findanagentfocus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/homeowners.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/intro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/javascript.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/jontoshmatov_zend_certified.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/life.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/medical.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/mysql.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/php.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/renters.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/rv.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/tellusaboutyourself.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/travel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/projects/amfam/umbrella.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/blogpost.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/coming-soon.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/contact.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/css/bootstrap-override.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/css/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/css/elastislide.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/css/flexslider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/css/prettyPhoto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/features.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/accord-minus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/accord-plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/bg_direction_nav.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/bullet-arr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/bullet-checkmark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/carousel-controls.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/cta-btn-arr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/divider-diagonal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/dot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/feature-divider-arr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/about-infographic-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/about-infographic-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/about-infographic-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-24x24-desktop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-24x24-iPad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-24x24-iPhone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-64-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-64-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-64-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-64-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-behance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-chirp-chirp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-clipboard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-cloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-compass.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-dribbble.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-googleplus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-info.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-phone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-pinterest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-posttype-camera.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-posttype-polaroid.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-posttype-preview.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-quote.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-skype.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/icons/icon-user.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/jontoshmatov.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/nav-item-divider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/patterns/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/patterns/pattern1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/dark_rounded/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/dark_rounded/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/dark_rounded/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/dark_rounded/contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/dark_rounded/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/dark_rounded/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/dark_rounded/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/dark_square/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/dark_square/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/dark_square/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/dark_square/contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/dark_square/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/dark_square/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/dark_square/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/default/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/default/default_thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/default/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/default/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/default/sprite_next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/default/sprite_prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/default/sprite_x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/default/sprite_y.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/facebook/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/facebook/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/facebook/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/facebook/contentPatternBottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/facebook/contentPatternLeft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/facebook/contentPatternRight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/facebook/contentPatternTop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/facebook/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/facebook/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/facebook/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/light_rounded/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/light_rounded/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/light_rounded/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/light_rounded/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/light_rounded/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/light_rounded/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/light_square/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/light_square/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/light_square/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/light_square/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/prettyPhoto/light_square/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/img-browser.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/infographic-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/infographic-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/infographic-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/infographic-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/member-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/member-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/member-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/member-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/slide-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/slide-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/slide-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/slide-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/slide-small-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/slide-small-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/slide-small-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/slider-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/thumb-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/thumb-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/thumb-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/thumb-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/thumb-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/thumb-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/thumb-7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/thumb-8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/preview/user-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/ptable-divider-arr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/slider-nav-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/world-map.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/img/zoom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/index-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/js/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/js/countdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/js/custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/js/ddsmoothmenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/js/jquery-1.9.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/js/jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/js/jquery.elastislide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/js/jquery.flexslider-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/js/jquery.form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/js/jquery.isotope.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/js/jquery.prettyPhoto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/js/jquery.validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/js/modernizr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/js/selectnav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/multipost-2col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/multipost.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/portfolio-3col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/portfolio-4col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/portfolio-details.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/pricing-3col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/pricing-4col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/pricing-5col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/submit-form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/subscribe-form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/support-form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/support.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/twitter/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/twitter/lib/tmhOAuth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/twitter/lib/tmhUtilities.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/orange/twitter/twitter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/blogpost.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/coming-soon.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/contact.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/css/bootstrap-override.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/css/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/css/elastislide.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/css/flexslider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/css/prettyPhoto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/features.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/accord-minus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/accord-plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/bg_direction_nav.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/bullet-arr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/bullet-checkmark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/carousel-controls.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/cta-btn-arr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/divider-diagonal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/dot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/feature-divider-arr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/about-infographic-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/about-infographic-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/about-infographic-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-24x24-desktop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-24x24-iPad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-24x24-iPhone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-64-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-64-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-64-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-64-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-behance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-chirp-chirp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-clipboard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-cloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-compass.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-dribbble.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-googleplus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-info.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-phone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-pinterest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-posttype-camera.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-posttype-polaroid.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-posttype-preview.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-quote.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-skype.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/icons/icon-user.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/jontoshmatov.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/nav-item-divider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/patterns/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/patterns/pattern1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/dark_rounded/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/dark_rounded/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/dark_rounded/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/dark_rounded/contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/dark_rounded/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/dark_rounded/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/dark_rounded/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/dark_square/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/dark_square/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/dark_square/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/dark_square/contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/dark_square/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/dark_square/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/dark_square/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/default/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/default/default_thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/default/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/default/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/default/sprite_next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/default/sprite_prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/default/sprite_x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/default/sprite_y.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/facebook/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/facebook/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/facebook/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/facebook/contentPatternBottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/facebook/contentPatternLeft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/facebook/contentPatternRight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/facebook/contentPatternTop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/facebook/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/facebook/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/facebook/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/light_rounded/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/light_rounded/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/light_rounded/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/light_rounded/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/light_rounded/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/light_rounded/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/light_square/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/light_square/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/light_square/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/light_square/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/prettyPhoto/light_square/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/img-browser.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/infographic-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/infographic-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/infographic-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/infographic-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/member-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/member-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/member-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/member-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/slide-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/slide-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/slide-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/slide-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/slide-small-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/slide-small-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/slide-small-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/slider-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/thumb-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/thumb-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/thumb-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/thumb-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/thumb-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/thumb-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/thumb-7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/thumb-8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/preview/user-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/ptable-divider-arr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/slider-nav-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/world-map.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/img/zoom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/index-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/js/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/js/countdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/js/custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/js/ddsmoothmenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/js/jquery-1.9.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/js/jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/js/jquery.elastislide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/js/jquery.flexslider-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/js/jquery.form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/js/jquery.isotope.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/js/jquery.prettyPhoto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/js/jquery.validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/js/modernizr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/js/selectnav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/multipost-2col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/multipost.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/portfolio-3col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/portfolio-4col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/portfolio-details.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/pricing-3col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/pricing-4col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/pricing-5col.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/submit-form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/subscribe-form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/support-form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/support.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/twitter/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/twitter/lib/tmhOAuth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/twitter/lib/tmhUtilities.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/pink/twitter/twitter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/css/bootstrap-override.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/css/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/css/docs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/css/elastislide.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/css/flexslider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/css/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/css/prettyPhoto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/accord-minus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/accord-plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/bg_direction_nav.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/bullet-arr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/bullet-checkmark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/carousel-controls.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/cta-btn-arr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/divider-diagonal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/dot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/feature-divider-arr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/about-infographic-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/about-infographic-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/about-infographic-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-24x24-desktop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-24x24-iPad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-24x24-iPhone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-64-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-64-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-64-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-64-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-behance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-chirp-chirp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-clipboard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-cloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-compass.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-dribbble.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-googleplus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-info.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-phone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-pinterest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-posttype-camera.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-posttype-polaroid.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-posttype-preview.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-quote.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-skype.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/icons/icon-user.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/nav-item-divider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/patterns/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/patterns/pattern1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/dark_rounded/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/dark_rounded/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/dark_rounded/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/dark_rounded/contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/dark_rounded/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/dark_rounded/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/dark_rounded/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/dark_square/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/dark_square/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/dark_square/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/dark_square/contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/dark_square/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/dark_square/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/dark_square/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/default/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/default/default_thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/default/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/default/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/default/sprite_next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/default/sprite_prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/default/sprite_x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/default/sprite_y.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/facebook/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/facebook/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/facebook/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/facebook/contentPatternBottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/facebook/contentPatternLeft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/facebook/contentPatternRight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/facebook/contentPatternTop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/facebook/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/facebook/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/facebook/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/light_rounded/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/light_rounded/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/light_rounded/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/light_rounded/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/light_rounded/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/light_rounded/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/light_square/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/light_square/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/light_square/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/light_square/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/prettyPhoto/light_square/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/img-browser.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/infographic-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/infographic-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/infographic-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/infographic-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/member-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/member-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/member-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/member-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/slide-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/slide-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/slide-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/slide-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/slide-small-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/slide-small-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/slide-small-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/slider-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/thumb-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/thumb-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/thumb-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/thumb-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/thumb-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/thumb-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/thumb-7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/thumb-8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/preview/user-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/ptable-divider-arr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/slider-nav-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/world-map.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/img/zoom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/js/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/js/countdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/js/custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/js/ddsmoothmenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/js/jquery-1.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/js/jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/js/jquery.elastislide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/js/jquery.flexslider-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/js/jquery.form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/js/jquery.isotope.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/js/jquery.prettyPhoto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/js/jquery.validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/js/modernizr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/js/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/js/twitter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/shortcode page/shortcodes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/twitter/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/twitter/lib/tmhOAuth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/twitter/lib/tmhUtilities.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/twitter/twitter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/admin/testupload.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/admin/uploadcsv.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/auth/password.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/auth/reset.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/districts/all.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/districts/district.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/emails/email.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/emails/import.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/emails/password.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/errors/404.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/groups/all.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/groups/group.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/home.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/master.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/master2.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/members/home.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/organizations/all.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/organizations/organization.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/partials/bottom.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/partials/footer.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/partials/header.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/partials/navigation.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/partials/sidebar.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/public/aboutme.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/public/portfolio.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/public/projects/amfam/amfam.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/users/guardians.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/users/member.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/users/members.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/users/memberupdate.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/users/roles.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/users/user.blade.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
     </list>
     <ignored path="jontoshmatov.iws" />
@@ -32,52 +948,7 @@
     <favorites_list name="jontoshmatov" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63414633">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PublicController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PublicController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.875">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding>
-                <element signature="e#41#69#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.125">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#40#85#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -94,10 +965,11 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="730" />
+    <option name="height" value="732" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -119,11 +991,15 @@
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
-      <sortByType />
+      <sortByType ProjectPane="true" />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+      </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -132,66 +1008,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jontoshmatov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jontoshmatov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jontoshmatov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jontoshmatov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jontoshmatov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jontoshmatov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../public_html_default" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e95a78e-bb0f-4b5b-9826-0eff355832fe" name="Default" comment="" />
+      <created>1453001883919</created>
+      <option name="number" value="Default" />
+      <updated>1453001883919</updated>
+    </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="730" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="732" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22213247" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23424879" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41830066" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41830066" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3251634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32305196" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -203,10 +1049,13 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.66962844" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736155" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -216,44 +1065,56 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13953489">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminTestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminToolsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PublicController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#41#69#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#40#85#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -261,23 +1122,195 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminTestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminToolsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PublicController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63414633">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminTestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminToolsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PublicController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13953489">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7712082">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26992288">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminTestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04109589">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminToolsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04109589">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PublicController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04109589">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53424656">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
