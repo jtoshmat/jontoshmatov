@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', true),
+    'debug' => env('APP_DEBUG', false),
 
     /*
     |--------------------------------------------------------------------------
@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'url' => 'http://jontoshmatov.com',
+    'url' => 'http://localhost',
 
     /*
     |--------------------------------------------------------------------------
@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'timezone' => 'America/New_York',
+    'timezone' => 'UTC',
 
     /*
     |--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY', 'a24ab5fca9d24d41b65f398d5a5ff97d'),
+    'key' => env('APP_KEY', 'dc503d01b4c44ebc88fded1de0e7a742'),
 
     'cipher' => 'AES-256-CBC',
 
@@ -140,10 +140,10 @@ return [
         /*
          * Application Service Providers...
          */
-        app\Providers\AppServiceProvider::class,
-        app\Providers\AuthServiceProvider::class,
-        app\Providers\EventServiceProvider::class,
-        app\Providers\RouteServiceProvider::class,
+        App\Providers\AppServiceProvider::class,
+        App\Providers\AuthServiceProvider::class,
+        App\Providers\EventServiceProvider::class,
+        App\Providers\RouteServiceProvider::class,
 
     ],
 
