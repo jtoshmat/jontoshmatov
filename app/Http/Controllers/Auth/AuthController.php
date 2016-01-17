@@ -1,15 +1,18 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace app\Http\Controllers\Auth;
 
-use App\User;
+use app\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use app\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
 class AuthController extends Controller
 {
+    protected $loginPath = '/custom';
+    protected $redirectPath = '/home';
+    protected $redirectAfterLogout = '/auth/login';
     /*
     |--------------------------------------------------------------------------
     | Registration & Login Controller
@@ -41,9 +44,13 @@ class AuthController extends Controller
      */
     protected function validator(array $data)
     {
+	    $data['slug'] = str_slug($data['first_name'].' '.$data['middle_name'].' '.$data['last_name'].' '.str_random(10), "-");
         return Validator::make($data, [
-            'name' => 'required|max:255',
-            'email' => 'required|email|max:255|unique:users',
+            'first_name' => 'required|max:255',
+            'middle_name' => 'required|max:255',
+            'last_name' => 'required|max:255',
+            'email' => 'email|max:255',
+	        'slug'=>'required|string|unique:users|min:2',
             'password' => 'required|confirmed|min:6',
         ]);
     }
@@ -56,10 +63,15 @@ class AuthController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
-            'name' => $data['name'],
+	    $data['slug'] = str_slug($data['first_name'].' '.$data['middle_name'].' '.$data['last_name'].' '.str_random(10), "-");
+	    return User::create([
+            'first_name' => $data['first_name'],
+            'middle_name' => $data['middle_name'],
+            'last_name' => $data['last_name'],
             'email' => $data['email'],
+            'slug' => $data['slug'],
             'password' => bcrypt($data['password']),
         ]);
     }
+
 }
