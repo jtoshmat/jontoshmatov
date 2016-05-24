@@ -157,8 +157,8 @@ class Kernel implements KernelContract
      */
     protected function gatherRouteMiddlewares($request)
     {
-        if ($request->route()) {
-            return $this->router->gatherRouteMiddlewares($request->route());
+        if ($route = $request->route()) {
+            return $this->router->gatherRouteMiddlewares($route);
         }
 
         return [];
@@ -245,7 +245,7 @@ class Kernel implements KernelContract
      */
     public function hasMiddleware($middleware)
     {
-        return array_key_exists($middleware, array_flip($this->middleware));
+        return in_array($middleware, $this->middleware);
     }
 
     /**

@@ -22,8 +22,6 @@ use Symfony\Component\HttpFoundation\Request;
  * the controller method arguments.
  *
  * @author Fabien Potencier <fabien@symfony.com>
- *
- * @api
  */
 class ControllerResolver implements ControllerResolverInterface
 {
@@ -44,8 +42,6 @@ class ControllerResolver implements ControllerResolverInterface
      *
      * This method looks for a '_controller' request attribute that represents
      * the controller name (a string like ClassName::MethodName).
-     *
-     * @api
      */
     public function getController(Request $request)
     {
@@ -88,8 +84,6 @@ class ControllerResolver implements ControllerResolverInterface
 
     /**
      * {@inheritdoc}
-     *
-     * @api
      */
     public function getArguments(Request $request, $controller)
     {
@@ -111,7 +105,11 @@ class ControllerResolver implements ControllerResolverInterface
         $arguments = array();
         foreach ($parameters as $param) {
             if (array_key_exists($param->name, $attributes)) {
-                $arguments[] = $attributes[$param->name];
+                if (PHP_VERSION_ID >= 50600 && $param->isVariadic() && is_array($attributes[$param->name])) {
+                    $arguments = array_merge($arguments, array_values($attributes[$param->name]));
+                } else {
+                    $arguments[] = $attributes[$param->name];
+                }
             } elseif ($param->getClass() && $param->getClass()->isInstance($request)) {
                 $arguments[] = $request;
             } elseif ($param->isDefaultValueAvailable()) {
@@ -137,7 +135,7 @@ class ControllerResolver implements ControllerResolverInterface
      *
      * @param string $controller A Controller string
      *
-     * @return mixed A PHP callable
+     * @return callable A PHP callable
      *
      * @throws \InvalidArgumentException
      */
@@ -157,7 +155,7 @@ class ControllerResolver implements ControllerResolverInterface
     }
 
     /**
-     * Returns an instantiated controller
+     * Returns an instantiated controller.
      *
      * @param string $class A class name
      *

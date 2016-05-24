@@ -142,6 +142,10 @@ class Container implements ArrayAccess, ContainerContract
      */
     public function resolved($abstract)
     {
+        if ($this->isAlias($abstract)) {
+            $abstract = $this->getAlias($abstract);
+        }
+
         return isset($this->resolved[$abstract]) || isset($this->instances[$abstract]);
     }
 
@@ -223,6 +227,7 @@ class Container implements ArrayAccess, ContainerContract
      * @param  string  $concrete
      * @param  string  $abstract
      * @param  \Closure|string  $implementation
+     * @return void
      */
     public function addContextualBinding($concrete, $abstract, $implementation)
     {
@@ -680,7 +685,7 @@ class Container implements ArrayAccess, ContainerContract
      * Get the contextual concrete binding for the given abstract.
      *
      * @param  string  $abstract
-     * @return string
+     * @return string|null
      */
     protected function getContextualConcrete($abstract)
     {
@@ -1011,6 +1016,7 @@ class Container implements ArrayAccess, ContainerContract
      *
      * @param  mixed  $object
      * @param  array  $callbacks
+     * @return void
      */
     protected function fireCallbackArray($object, array $callbacks)
     {
@@ -1143,7 +1149,7 @@ class Container implements ArrayAccess, ContainerContract
      */
     public function offsetExists($key)
     {
-        return isset($this->bindings[$key]);
+        return $this->bound($key);
     }
 
     /**

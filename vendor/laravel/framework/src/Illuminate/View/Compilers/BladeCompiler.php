@@ -196,7 +196,7 @@ class BladeCompiler extends Compiler implements CompilerInterface
      */
     protected function compileComments($value)
     {
-        $pattern = sprintf('/%s--((.|\s)*?)--%s/', $this->contentTags[0], $this->contentTags[1]);
+        $pattern = sprintf('/%s--(.*?)--%s/s', $this->contentTags[0], $this->contentTags[1]);
 
         return preg_replace($pattern, '<?php /*$1*/ ?>', $value);
     }
@@ -547,7 +547,18 @@ class BladeCompiler extends Compiler implements CompilerInterface
      */
     protected function compileCan($expression)
     {
-        return "<?php if (Gate::check{$expression}): ?>";
+        return "<?php if (app('Illuminate\\Contracts\\Auth\\Access\\Gate')->check{$expression}): ?>";
+    }
+
+    /**
+     * Compile the cannot statements into valid PHP.
+     *
+     * @param  string  $expression
+     * @return string
+     */
+    protected function compileCannot($expression)
+    {
+        return "<?php if (app('Illuminate\\Contracts\\Auth\\Access\\Gate')->denies{$expression}): ?>";
     }
 
     /**
@@ -636,6 +647,17 @@ class BladeCompiler extends Compiler implements CompilerInterface
      * @return string
      */
     protected function compileEndcan($expression)
+    {
+        return '<?php endif; ?>';
+    }
+
+    /**
+     * Compile the end-cannot statements into valid PHP.
+     *
+     * @param  string  $expression
+     * @return string
+     */
+    protected function compileEndcannot($expression)
     {
         return '<?php endif; ?>';
     }

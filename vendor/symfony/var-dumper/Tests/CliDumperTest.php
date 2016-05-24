@@ -69,15 +69,12 @@ array:24 [
   7 => b"é\\x00"
   "[]" => []
   "res" => stream resource {@{$res}
-    wrapper_type: "plainfile"
+%A  wrapper_type: "plainfile"
     stream_type: "STDIO"
     mode: "r"
     unread_bytes: 0
     seekable: true
-    timed_out: false
-    blocked: true
-    eof: false
-    options: []
+%A  options: []
   }
   "obj" => Symfony\Component\VarDumper\Tests\Fixture\DumbFoo {#%d
     +foo: "foo"
@@ -115,12 +112,11 @@ EOTXT
         );
     }
 
+    /**
+     * @requires extension xml
+     */
     public function testXmlResource()
     {
-        if (!extension_loaded('xml')) {
-            $this->markTestSkipped('xml extension is required');
-        }
-
         $var = xml_parser_create();
 
         $this->assertDumpMatchesFormat(
@@ -198,16 +194,13 @@ EOTXT
         $this->assertStringMatchesFormat(
             <<<EOTXT
 stream resource {@{$ref}
-  wrapper_type: "PHP"
+%Awrapper_type: "PHP"
   stream_type: "MEMORY"
   mode: "%s+b"
   unread_bytes: 0
   seekable: true
   uri: "php://memory"
-  timed_out: false
-  blocked: true
-  eof: false
-  options: []
+%Aoptions: []
   ⚠: Symfony\Component\VarDumper\Exception\ThrowingCasterException {{$r}
     #message: "Unexpected Exception thrown from a caster: Foobar"
     trace: array:1 [
@@ -257,13 +250,10 @@ EOTXT
     /**
      * @runInSeparateProcess
      * @preserveGlobalState disabled
+     * @requires PHP 5.6
      */
     public function testSpecialVars56()
     {
-        if (PHP_VERSION_ID < 50600) {
-            $this->markTestSkipped('PHP 5.6 is required');
-        }
-
         $var = $this->getSpecialVars();
 
         $this->assertDumpEquals(
