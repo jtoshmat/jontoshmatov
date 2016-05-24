@@ -17,8 +17,9 @@ class PublicController extends Controller
      */
     public function index()
     {
+        $users = User::All();
         $test = 'test';
-        return view('welcome', ['test'=>$test]);
+        return view('welcome', ['users'=>$users, 'test'=>$test]);
     }
 
     /**

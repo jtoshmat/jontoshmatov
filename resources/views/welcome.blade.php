@@ -8,7 +8,7 @@
         <div class="container">
             <div class="content">
                 <div class="title">Jon Toshmatov</div>
-                Coming soon
+                {{$users}}
 
             </div>
         </div>
